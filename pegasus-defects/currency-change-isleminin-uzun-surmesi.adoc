@@ -14,6 +14,7 @@
 
 . ADA - ESB rotasında gidiş dönüş için uçuş listelenen en az birer gün olmalı.
 . Anasayfada default para birimi TL olmalı.
+. Login olunmamalı.
 
 **Senaryo:**
 
