@@ -1,0 +1,32 @@
+:imagesdir: images
+
+=  RU dilinde General Rules içeriğinin EN görünme sorunu
+
+*Test cihazı:* Macbook Air M1 8/256 
+
+*Test cihazı sürümü:* MacOs Sonoma 14.0
+
+*Test cihazı ekran çözünürlüğü:* 1280*800
+
+*Uygulamanın test edildiği browser:* Firefox 119.0.1
+
+**Ön Koşullar:**
+
+- Default dil TR olmalı.
+
+**Senaryo:**
+
+. https://www.flypgs.com/faydali-bilgiler/ucusun-icin-bilgiler/genel-kurallar linkine girilir.
+. Sayfanın sağ üst tarafındaki dil değiştirme dropdown'ına tıklanır ve dil RU (Rusça) seçilir.
+. "IMPORTANT INFORMATION REGARDING PEGASUS GENERAL RULES" alanına tıklanır ve içeriklerin dili kontrol edilir.
+
+**Oluşan Durum:**
+
+. RU dilini seçince içeriklerin dili EN (İngilizce) olarak görünüyor. 
+
+**Beklenen Sonuçlar:**
+
+- RU dilini seçince içeriklerin dili RU (Rusça) olarak görünmeli.
+
+image::ru-dilinde-general-rules-en-gorunuyor.png[]
+
