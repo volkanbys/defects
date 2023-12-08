@@ -1,0 +1,42 @@
+:imagesdir: images
+
+=  Passenger sayfasında cep telefonu ve şifre inputlarının hizalı olmama sorunu
+
+*Test cihazı:* Macbook Air M1 8/256 
+
+*Test cihazı sürümü:* MacOs Sonoma 14.0
+
+*Test cihazı ekran çözünürlüğü:* 1280*800
+
+*Uygulamanın test edildiği browser:* Firefox 119.0.1
+
+**Ön Koşullar:**
+
+. Login olunmamalı.
+. Herhangi bir rotada uçuş listelenen en az bir gün olmalı.
+
+**Aşama:**
+
+- Booking (Passenger)
+
+**Senaryo:**
+
+. https://www.flypgs.com/ linkine girilir.
+. Uçuş arama alanında "Tek Yön" seçeneği tıklanır.
+. Kalkış ve varış portları uçuş olan herhangi bir port seçilir.
+. Gidiş tarihi için uçuş olan herhangi bir gün seçilir.
+. Yolcu 1 Adult seçilir.
+. "UCUZ UÇUŞ ARA" butonuna tıklanır.
+. Availability sayfasında ilk sıradaki uçuş mevcut olan en yüksek paket ile seçilir, ardından "DEVAM" butonuna tıklanır.
+. Passenger sayfasında “Hesabına Giriş Yap” alanındaki "Cep Telefonun" ve "Şifre" inputlarının hizalaması kontrol edilir.
+
+**Oluşan Durum:**
+
+- "Cep Telefonun" ve "Şifre" inputları hizalı görünmüyor.
+
+**Beklenen Sonuçlar:**
+
+- "Cep Telefonun" ve "Şifre" inputları hizalı olmalı.
+
+image::passenger-telefon-sifre-input-hizalama-sorunu.png[]
+
