@@ -16,6 +16,10 @@
 . Anasayfada default para birimi TL olmalı.
 . Login olunmamalı.
 
+**Aşama:**
+
+- Booking (Availability)
+
 **Senaryo:**
 
 . https://www.flypgs.com/ linkine girilir.

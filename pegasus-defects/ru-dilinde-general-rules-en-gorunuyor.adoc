@@ -14,6 +14,10 @@
 
 - Default dil TR olmalı.
 
+**Aşama:**
+
+-
+
 **Senaryo:**
 
 . https://www.flypgs.com/faydali-bilgiler/ucusun-icin-bilgiler/genel-kurallar linkine girilir.

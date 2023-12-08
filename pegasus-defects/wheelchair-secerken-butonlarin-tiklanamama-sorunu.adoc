@@ -1,0 +1,34 @@
+:imagesdir: images
+
+=  Tekerlekli sandalye hizmeti seçerken sayfadaki tüm butonların tıklanamaz hale gelme sorunu
+
+*Test cihazı:* Macbook Air M1 8/256 
+
+*Test cihazı sürümü:* MacOs Sonoma 14.0
+
+*Test cihazı ekran çözünürlüğü:* 1280*800
+
+*Uygulamanın test edildiği browser:* Firefox 119.0.1
+
+**Ön Koşullar:**
+
+- 
+
+**Aşama:**
+
+- Booking
+
+**Senaryo:**
+
+. 
+
+**Oluşan Durum:**
+
+- 
+
+**Beklenen Sonuçlar:**
+
+- 
+
+image::ru-dilinde-general-rules-en-gorunuyor.png[]
+

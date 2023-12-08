@@ -16,6 +16,10 @@
 . Login olunmamalı.
 . Web tarayıcı çözünürlüğü %100 olmalı.
 
+**Aşama:**
+
+- Booking (Passenger)
+
 **Senaryo:**
 
 . https://www.flypgs.com/ linkine girilir.
