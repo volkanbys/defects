@@ -1,0 +1,39 @@
+:imagesdir: images
+
+=  BolBol üye girişi popup banner’ının anasayfa dışındaki sayfalarda görünmeme sorunu
+
+*Test cihazı:* Macbook Air M1 8/256 
+
+*Test cihazı sürümü:* MacOs Sonoma 14.0
+
+*Test cihazı ekran çözünürlüğü:* 1280*800
+
+*Uygulamanın test edildiği browser:* Firefox 119.0.1
+
+**Ön Koşullar:**
+
+- Login olunmamalı.
+
+**Aşama:**
+
+- 
+
+**Senaryo:**
+
+. https://www.flypgs.com/ linkine girilir.
+. Header alanında “BolBol Üye Girişi” butonu tıklanır.
+. “Pegasus BolBol Üye Girişi” popup’ının içerisinde sol taraftaki “Bol Bol Avantajları Nelerdir?” banner’ı kontrol edilir.
+. Header alanındaki "KAMPANYALAR" başlığına tıklanır.
+. “BolBol Üye Girişi” butonuna tekrar tıklanır.
+. “Pegasus BolBol Üye Girişi” popup’ının içerisinde sol taraftaki banner alanı tekrar kontrol edilir.
+
+**Oluşan Durum:**
+
+- Anasayfa dışındaki sayfalardayken “Pegasus BolBol Üye Girişi” popup’ının içerisinde sol taraftaki alanda banner görünmüyor, "undefined" texti görünüyor.
+
+**Beklenen Sonuçlar:**
+
+- Anasayfa dışındaki sayfalardayken de “Pegasus BolBol Üye Girişi” popup’ının içerisinde sol taraftaki alanda banner görünmeli, "undefined" texti görünmemeli.
+
+image::bolbol-popup-banner-gorunmeme-sorunu-1.png[]
+image::bolbol-popup-banner-gorunmeme-sorunu-2.png[]
