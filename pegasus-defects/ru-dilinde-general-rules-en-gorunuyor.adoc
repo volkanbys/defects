@@ -22,7 +22,7 @@
 
 **Oluşan Durum:**
 
-. RU dilini seçince içeriklerin dili EN (İngilizce) olarak görünüyor. 
+- RU dilini seçince içeriklerin dili EN (İngilizce) olarak görünüyor. 
 
 **Beklenen Sonuçlar:**
 
