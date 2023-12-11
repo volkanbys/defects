@@ -37,7 +37,7 @@
 . Sayfanın para biriminin EUR olarak değişmesi 7-8 saniye kadar sürüyor.
 . Sayfanın para biriminin TL olarak değişmesi 7-8 saniye kadar sürüyor.
 
-**Beklenen Sonuçlar:**
+**Beklenen Sonuç:**
 
 - Para birimi değişimi için geçen süre mümkün olan en düşük seviyeye indirilmeli.
 

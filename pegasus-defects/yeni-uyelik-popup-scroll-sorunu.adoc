@@ -39,7 +39,7 @@
 . Web tarayıcı çözünürlüğü %100 durumdayken üyelik popup’ının en üstüne ve en altına scroll yapılamıyor, buna bağlı olarak üst kısımdaki “BolBol Üyeliğini Hemen Başlat!” yazısı ve “X” butonu gözükmüyor, alt kısımda ise “Üye Ol” ve “Üye Olmadan Devam Et” butonları gözükmüyor.
 . Web tarayıcı çözünürlüğü %80 yapıldığında ilgili butonlar gözüküyor (bunda sorun yok). 
 
-**Beklenen Sonuçlar:**
+**Beklenen Sonuç:**
 
 - Tarayıcı çözünürlüğü %100 olduğunda da popup’ın en alt ve en üst kısımlarına scroll yapılabilmeli. Buna bağlı olarak popup'ın üst kısmındaki “BolBol Üyeliğini Hemen Başlat!” yazısı ve “X” butonu, alt kısmındaki “Üye Ol” ve “Üye Olmadan Devam Et” butonları gözükmeli.
 

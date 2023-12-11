@@ -34,7 +34,7 @@
 
 - "Cep Telefonun" ve "Şifre" inputları hizalı görünmüyor.
 
-**Beklenen Sonuçlar:**
+**Beklenen Sonuç:**
 
 - "Cep Telefonun" ve "Şifre" inputları hizalı olmalı.
 

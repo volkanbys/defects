@@ -31,7 +31,7 @@
 
 - Anasayfa dışındaki sayfalardayken “Pegasus BolBol Üye Girişi” popup’ının içerisinde sol taraftaki alanda banner görünmüyor, "undefined" texti görünüyor.
 
-**Beklenen Sonuçlar:**
+**Beklenen Sonuç:**
 
 - Anasayfa dışındaki sayfalardayken de “Pegasus BolBol Üye Girişi” popup’ının içerisinde sol taraftaki alanda banner görünmeli, "undefined" texti görünmemeli.
 

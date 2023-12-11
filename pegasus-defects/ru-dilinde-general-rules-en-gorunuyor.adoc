@@ -28,7 +28,7 @@
 
 - RU dilini seçince içeriklerin dili EN (İngilizce) olarak görünüyor. 
 
-**Beklenen Sonuçlar:**
+**Beklenen Sonuç:**
 
 - RU dilini seçince içeriklerin dili RU (Rusça) olarak görünmeli.
 

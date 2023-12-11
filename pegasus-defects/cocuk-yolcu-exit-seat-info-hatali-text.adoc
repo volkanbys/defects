@@ -38,7 +38,7 @@
 
 - Info yazısında ilgili yolcu çocuk olduğu halde “Bebekli yolcular acil çıkış koltuğuna oturamamaktadır.” yazıyor.
 
-**Beklenen Sonuçlar:**
+**Beklenen Sonuç:**
 
 - Info yazısı “Çocuk yolcular acil çıkış koltuğuna oturamamaktadır.” olarak çocuk yolcuya uygun bir şekilde düzenlenmeli.
 

@@ -42,7 +42,7 @@
 - Sayfadaki hiçbir butona tıklanamıyor, buna bağlı olarak akışta ilerlenemiyor.
 
 
-**Beklenen Sonuçlar:**
+**Beklenen Sonuç:**
 
 - Tekerlekli sandalye hizmeti seçerken sayfadaki butonlar tıklanamaz hale gelmemeli, akışta ilerlenebilmeli.
 
