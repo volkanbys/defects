@@ -1,0 +1,39 @@
+:imagesdir: images
+
+=  Kullanıcının geçmiş uçuşları filtrelenirken takvimde gelecek tarihlerin de görünme sorunu
+
+*Test cihazı:* Macbook Air M1 8/256 
+
+*Test cihazı sürümü:* MacOs Sonoma 14.0
+
+*Test cihazı ekran çözünürlüğü:* 1280*800
+
+*Uygulamanın test edildiği browser:* Firefox 119.0.1
+
+**Ön Koşullar:**
+
+- Login işlemi yapabilmek için geçerli kullanıcı adı (BolBol üye no) ve şifre mevcut olmalı.
+
+**Aşama:**
+
+- Loyalty (profil)
+
+**Senaryo:**
+
+. https://web.flypgs.com/profile/travel linkine girilir.
+. "BolBol Üye No" ve "Şifre" inputları doldurulur, "Giriş Yap" butonuna tıklanır.
+. "Geçmiş Uçuşlar" butonuna tıklanır.
+. "Bitiş Tarihi" inputuna tıklanır, takvimde içinde bulunulan aydan bir sonraki aya gelene kadar ileri ok butonuna ">" tıklanır.
+. İçinde bulunulan aydan bir sonraki aya ait takvim kontrol edilir.
+
+**Oluşan Durum:**
+
+- Takvimde içinde bulunulan aydan sonraki aylar da gösteriliyor (örneğin 2040 yılına kadar ilerlenebiliyor).
+
+**Beklenen Sonuç:**
+
+- İçinde bulunulan aydan sonraki aylar gösterilmemeli, bu aylara ilerlenememeli.
+
+image::gecmis-ucus-takvim-tarih-listeleme-sorunu-1.png[]
+image::gecmis-ucus-takvim-tarih-listeleme-sorunu-2.png[]
+
