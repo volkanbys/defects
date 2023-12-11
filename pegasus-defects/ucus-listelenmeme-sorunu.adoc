@@ -1,0 +1,44 @@
+:imagesdir: images
+
+=  ADA->IST_SAW One Way sorgusunda uçuş listelenmeme sorunu
+
+*Test cihazı:* Macbook Air M1 8/256 
+
+*Test cihazı sürümü:* MacOs Sonoma 14.0
+
+*Test cihazı ekran çözünürlüğü:* 1280*800
+
+*Uygulamanın test edildiği browser:* Firefox 119.0.1
+
+*Sorunun Tekrarlanma Saati:* 11.12.2023 , 20:10
+
+**Ön Koşullar:**
+
+. Login olunmamalı.
+
+**Aşama:**
+
+- Booking (Availability)
+
+**Senaryo:**
+
+. https://www.flypgs.com/ linkine girilir.
+. Uçuş arama alanında "Tek Yön" seçeneği tıklanır.
+. Kalkış portu Adana (ADA), varış portu İstanbul Tümü (IST_SAW) seçilir.
+. Gidiş tarihi 1 şubat 2023 seçilir.
+. Yolcu: 1 adult seçilir.
+. "UCUZ UÇUŞ ARA" butonuna tıklanır.
+. Availability sayfasında uçuş listelenme alanı kontrol edilir.
+. Üstteki 7 madde tekrar uygulanır ve availability sayfasında uçuş listelenme alanı tekrar kontrol edilir.
+
+**Oluşan Durum:**
+
+. "UCUZ UÇUŞ ARA" butonuna tıkladıktan sonra availability sayfasında “Uçuşların listelenmesinde bir hata oluştu. Lütfen tekrar deneyiniz.” uyarısı veriyor. 
+. Uçuş arama işlemi ikinci kez gerçekleştirildikten sonra uçuşlar listeleniyor.
+
+**Beklenen Sonuç:**
+
+- Uçuş arama işlemi ilk gerçekleştirildiğinde de uyarı vermemeli, uçuşlar listelenmeli veya ilgili tarihte uçuş yoksa uçuş olmadığına dair uyarı verilmeli.
+
+image::ucus-listelenmeme-sorunu-1.png[]
+image::ucus-listelenmeme-sorunu-2.png[]
