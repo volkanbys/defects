@@ -1,0 +1,38 @@
+:imagesdir: images
+
+=  A
+
+*Test cihazı:* Samsung Galaxy S20Fe Snapdragon 6/128
+
+*Test cihazı sürümü:* Android 13
+
+*Test cihazı ekran çözünürlüğü:* 1080 x 2400
+
+*Test cihazı arayüz sürümü:* One UI 5.1
+
+*Uygulama Sürümü:* 7.0.6
+
+*Sorunun Tekrarlanma Tarih-Saati:* 12.12.2023 - 15:00
+
+**Ön Koşullar:**
+
+-
+
+**Aşama:**
+
+- Seyahat Yönetimi
+
+**Senaryo:**
+
+. Uygulama içerisinde sırasıyla "Hızlı İşlemler" -> "Seyahat Yönetimi" -> "Uçak" butonları tıklanır.
+. Uçak sayfasında "Pnr Kodu" inputuna 20 hane olacak şekilde harf veya sayısal karakter girilir.
+
+**Oluşan Durum:**
+
+. "Pnr Kodu" inputuna 20 hane girilebiliyor.
+
+**Beklenen Sonuç:**
+
+. Pnr kodu standardı 6 haneden oluştuğu için "Pnr Kodu" inputuna 6 haneden fazla girilememeli.
+
+image::pnd-kodu-input-hane-sorunu.png[]
