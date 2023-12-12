@@ -1,0 +1,44 @@
+:imagesdir: images
+
+=  Uçak bileti akışı -> İletişim Formu -> Cep telefonu için ülke seçim ekranında bazı ülkelerin bayrakları görünmüyor
+
+*Test cihazı:* Samsung Galaxy S20Fe Snapdragon 6/128
+
+*Test cihazı sürümü:* Android 13
+
+*Test cihazı ekran çözünürlüğü:* 1080 x 2400
+
+*Test cihazı arayüz sürümü:* One UI 5.1
+
+*Uygulama Sürümü:* 7.0.6
+
+*Sorunun Tekrarlanma Tarih-Saati:* 12.12.2023 - 21:56
+
+**Ön Koşullar:**
+
+- Uçuş listelenen en az 1 gün olmalı.
+
+**Aşama:**
+
+- Availability
+
+**Senaryo:**
+
+. Search sayfasında "Tek Yön" seçeneği seçilir, "Nereden" ve "Nereye" kısımları uçuş listelenme ihtimali yüksek olan herhangi bir rota seçilebilir (örn ADA - SAW).
+. "Gidiş Tarihi" rastgele seçilebilir (genellikle içinde bulunulan günden bir gün sonra uçuş olma ihtimali daha yüksek).
+. 1 yolcu seçilir.
+. "UCUZ BİLET BUL" butonuna tıklanır.
+. Availability sayfasında herhangi bir uçuş, mevcut olan herhangi bir paketle seçilir.
+. "Devam et" butonuna tıklanır.
+. "Cep telefonu numaranız" inputunda ülke kodunun üzerine tıklanır.
+. "Ülke Seçiniz" ekranında "England" , "North Ireland" , "Scotland" , "Wales" ülkelerinin bayrak ikonları kontrol edilir.
+
+**Oluşan Durum:**
+
+- Ülke Seçiniz" ekranında "England" , "North Ireland" , "Scotland" , "Wales" ülkelerinin bayrak ikonları görünmüyor.
+
+**Beklenen Sonuç:**
+
+- Diğer ülkelerde olduğu gibi "England" , "North Ireland" , "Scotland" , "Wales" ülkelerinin de bayrak ikonları görünmeli.
+
+image::cep-telefonu-input-eksik-ulke-bayraklari-sorunu.png[]
