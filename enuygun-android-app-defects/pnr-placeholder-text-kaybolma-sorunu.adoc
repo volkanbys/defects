@@ -12,7 +12,7 @@
 
 *Uygulama Sürümü:* 7.0.6
 
-*Sorunun Tekrarlanma Tarih-Saati:* 12.12.2023 - 15:18
+*Sorunun Tekrarlanma Tarih-Saati:* 12.12.2023 - 16:19
 
 **Ön Koşullar:**
 
