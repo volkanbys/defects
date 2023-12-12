@@ -35,7 +35,7 @@
 
 **Beklenen Sonuç:**
 
-- Uyarı yazıları inputlara yapışık durmamalı biraz boşluk olmalı. Bu bağlamda inputlar arasındaki boşluklar da bir miktar arttırılmalı.
-- Otobüs bileti sekmesi için de üst maddede belirtilen aynı düzenleme yapılmalı.
+. Uyarı yazıları inputlara yapışık durmamalı biraz boşluk olmalı. Bu bağlamda inputlar arasındaki boşluklar da bir miktar arttırılmalı.
+. Otobüs bileti sekmesi için de üst maddede belirtilen aynı düzenleme yapılmalı.
 
 image::bilet-iptal-input-uyari-metin-hizalama-sorunu.png[]
