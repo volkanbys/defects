@@ -1,0 +1,45 @@
+:imagesdir: images
+
+=  Pnr kodu inputuna ait placeholder textinin kaybolma sorunu
+
+*Test cihazı:* Samsung Galaxy S20Fe Snapdragon 6/128
+
+*Test cihazı sürümü:* Android 13
+
+*Test cihazı ekran çözünürlüğü:* 1080 x 2400
+
+*Test cihazı arayüz sürümü:* One UI 5.1
+
+*Uygulama Sürümü:* 7.0.6
+
+*Sorunun Tekrarlanma Tarih-Saati:* 12.12.2023 - 15:18
+
+**Ön Koşullar:**
+
+-
+
+**Aşama:**
+
+- Seyahat Yönetimi
+
+**Senaryo:**
+
+. Uygulama içerisinde sırasıyla "Hızlı İşlemler" -> "Seyahat Yönetimi" butonları tıklanır.
+. Seyahat yönetimi sayfasında "Uçak" sekmesi tıklanır, "Pnr Kodu" inputunun placeholder texti kontrol edilir.
+. Seyahat yönetimi sayfasında "Otobüs" sekmesi tıklanır, "Pnr Kodu" inputunun placeholder texti kontrol edilir.
+. Otel sekmesinde "Rezervasyon Kodu" inputuna "1234" kodu girilir ve "Sorgula" butonuna tıklanır.
+. "Lütfen rezervasyon numaranızı kontrol edip yeniden deneyin." uyarı popup'ında "Tamam" butonuna tıklanır.
+. "Uçak" sekmesine tıklanır, "Pnr Kodu" inputu placeholder text'i kontrol edilir.
+. "Otobüs" sekmesine tıklanır, "Pnr Kodu" inputu placeholder text'i kontrol edilir.
+
+**Oluşan Durum:**
+
+. Seyahat yönetimi sayfasına girdikten sonra Uçak ve Otobüs sekmelerinde "Pnr Kodu" inputunda "Pnr Kodu" şeklinde placeholder text'i görünüyor (bu senaryoda sorun yok, beklenen bir durum).
+. Otel sekmesinde rezervasyon sorgulama işlemi sonrası uyarı popup'ında "Tamam" butonuna tıkladıktan sonra Uçak ve Otobüs sekmelerine girince Pnr Kodu inputlarının placeholder textleri kayboluyor
+
+**Beklenen Sonuç:**
+
+- Otel sekmesinde rezervasyon sorgulama işlemi sonrası "Uçak" ve "Otobüs" sekmelerindeki "Pnr Kodu" inputlarının placeholder textleri kaybolmamalı.
+
+image::pnr-placeholder-text-kaybolma-sorunu-1.png[]
+image::pnr-placeholder-text-kaybolma-sorunu-2.png[]
