@@ -1,6 +1,6 @@
 :imagesdir: images
 
-=  A
+=  “Pnr Kodu” inputuna kod 6 haneden fazla karakter girilebilme sorunu
 
 *Test cihazı:* Samsung Galaxy S20Fe Snapdragon 6/128
 
@@ -33,6 +33,6 @@
 
 **Beklenen Sonuç:**
 
-- Pnr kodu standardı 6 haneden oluştuğu için "Pnr Kodu" inputuna 6 haneden fazla girilememeli.
+- Pnr kodu standardı 6 haneden oluştuğu için "Pnr Kodu" inputuna 6 haneden fazla karakter girilememeli.
 
 image::pnd-kodu-input-hane-sorunu.png[]
