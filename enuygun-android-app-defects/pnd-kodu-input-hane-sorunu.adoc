@@ -29,10 +29,10 @@
 
 **Oluşan Durum:**
 
-. "Pnr Kodu" inputuna 20 hane girilebiliyor.
+- "Pnr Kodu" inputuna 20 hane girilebiliyor.
 
 **Beklenen Sonuç:**
 
-. Pnr kodu standardı 6 haneden oluştuğu için "Pnr Kodu" inputuna 6 haneden fazla girilememeli.
+- Pnr kodu standardı 6 haneden oluştuğu için "Pnr Kodu" inputuna 6 haneden fazla girilememeli.
 
 image::pnd-kodu-input-hane-sorunu.png[]
