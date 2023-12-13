@@ -1,6 +1,6 @@
 :imagesdir: images
 
-=  Contact form Yolcu Bilgilerini Güncelle fonksiyonunun çalışmama sorunu
+=  Passenger form Yolcu Bilgilerini Güncelle fonksiyonunun çalışmama sorunu
 
 *Test cihazı:* Samsung Galaxy S20Fe Snapdragon 6/128
 
@@ -21,7 +21,7 @@
 
 **Aşama:**
 
-- Contact form
+- Passenger form
 
 **Senaryo:**
 
@@ -51,4 +51,4 @@
 
 - Yolcu bilgilerinde yapılan güncelleme "Yolcularım" sayfasına yansımalı.
 
-image::contact-form-yolcu-bilgilerini-guncelle-fonksiyonunun-calismama-sorunu.png[]
+image::passenger-form-yolcu-bilgilerini-guncelle-fonksiyonunun-calismama-sorunu.png[]
