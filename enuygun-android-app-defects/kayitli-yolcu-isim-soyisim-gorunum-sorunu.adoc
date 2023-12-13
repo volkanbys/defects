@@ -1,0 +1,43 @@
+:imagesdir: images
+
+=  Yolcularım sayfasında hesap sahibinin isim soyismi uzun olduğunda ok ikonunun butonun arkasında kalma sorunu
+
+*Test cihazı:* Samsung Galaxy S20Fe Snapdragon 6/128
+
+*Test cihazı sürümü:* Android 13
+
+*Test cihazı ekran çözünürlüğü:* 1080 x 2400
+
+*Test cihazı arayüz sürümü:* One UI 5.1
+
+*Uygulama Sürümü:* 7.0.6
+
+*Sorunun Tekrarlanma Tarih-Saati:* 13.12.2023 - 20:38
+
+**Ön Koşullar:**
+
+- Login için geçerli kullanıcı adı (e-posta) ve şifre bilgileri olmalı.
+
+**Aşama:**
+
+- Contact form
+
+**Senaryo:**
+
+. Uygulama içerisinde "Hesabım" butonu tıklanır, kullanıcı login durumdaysa "Çıkış Yap" butonuna tıklayarak log out olması sağlanır (uygulamaya girildiğinde log out durumdaysa bu aşama atlanır).
+. "Hesabım" -> "Giriş Yap" butonları tıklanır.
+. Giriş yap sayfasında "E-posta" ve "Şifre" girilip "Giriş yap" butonuna tıklanır.
+. "Yolcularım" butonu tıklanır.
+. Yolcularım sayfasında hesap sahibi olan yolcu tıklanır.
+. Yolcu ad soyadı "Volkan Büyükyurtsever" olarak değiştirilir ve kaydet butonuna tıklanır.
+. Yolcularım listesinde hesap sahibi olan yolcu isim alanı kontrol edilir.
+
+**Oluşan Durum:**
+
+- İsim soyisim toplamı 16 karakterden fazla olduğunda Hesap Sahibi yazısı ">" ikonunun arkasında kalıyor, görünümün bozulmasına neden oluyor.
+
+**Beklenen Sonuç:**
+
+- Kullanıcı isim soyisminin uzun olması durumunda görünüm bozulmamalı (Tavsiye: Soyisim veya “Hesap Sahibi” yazısı alt satıra kaydırılabilir).
+
+image::kayitli-yolcu-isim-soyisim-gorunum-sorunu.png[]
