@@ -1,0 +1,54 @@
+:imagesdir: images
+
+=  Yolcu Bilgilerini Güncelle fonksiyonunun çalışmama sorunu
+
+*Test cihazı:* Samsung Galaxy S20Fe Snapdragon 6/128
+
+*Test cihazı sürümü:* Android 13
+
+*Test cihazı ekran çözünürlüğü:* 1080 x 2400
+
+*Test cihazı arayüz sürümü:* One UI 5.1
+
+*Uygulama Sürümü:* 7.0.6
+
+*Sorunun Tekrarlanma Tarih-Saati:* 13.12.2023 - 19:20
+
+**Ön Koşullar:**
+
+- Login için geçerli kullanıcı adı (e-posta) ve şifre bilgileri olmalı.
+- Uçuş listelenen en az 1 gün olmalı.
+
+**Aşama:**
+
+- Contact form
+
+**Senaryo:**
+
+. Uygulama içerisinde sırasıyla "Hesabım" -> "Giriş Yap" butonları tıklanır.
+. Giriş yap sayfasında "E-posta" ve "Şifre" girilip "Giriş yap" butonuna tıklanır.
+. "Ara (Search)" butonuna tıklanır.
+. Search sayfasında "Tek Yön" seçeneği seçilir, "Nereden" ve "Nereye" kısımları uçuş listelenme ihtimali yüksek olan herhangi bir rota seçilebilir (örn ADA - SAW).
+. "Gidiş Tarihi" rastgele seçilebilir (genellikle içinde bulunulan günden bir gün sonra uçuş olma ihtimali daha yüksek).
+. 1 yetişkin yolcu seçilir.
+. "UCUZ BİLET BUL" butonuna tıklanır.
+. Availability sayfasında herhangi bir uçuş, mevcut olan herhangi bir paketle seçilir.
+. "Devam et" butonuna tıklanır.
+. "Cep telefonu numaranız" inputuna "+90 555 555 55 55" numarası girilir.
+. 1. Yetişkin alanında "YOLCU LİSTENDEN SEÇ" kısmından kayıtlı yolcu üzerine tıklanır.
+. Yolcu ismi değiştirilir (eski isimden farklı herhangi bir isim yazılabilir).
+. “Yolcu Bilgilerini Güncelle” butonu seçili duruma getirilir. 
+. Eğer varsa sayfadaki diğer zorunlu alanlar random olarak doldurulup/seçilip “Devam Et” butonuna tıklanır.
+. Anasayfaya dönene kadar geri butonuna basılır.
+. Sırasıyla "Hesabım" -> "Yolcularım" butonları tıklanır.
+. İsim değişikliği yapılan kayıtlı yolcunun ismi kontrol edilir.
+
+**Oluşan Durum:**
+
+- Yolcunun isminde yapılan güncelleme "Yolcularım" sayfasına yansımıyor, yolcu ismi güncelleme öncesindeki gibi görünüyor.
+
+**Beklenen Sonuç:**
+
+- Yolcu bilgilerinde yapılan güncelleme "Yolcularım" sayfasına yansımalı.
+
+image::contact-form-yolcu-bilgilerini-guncelle-fonksiyonunun-calismama-sorunu.png[]
