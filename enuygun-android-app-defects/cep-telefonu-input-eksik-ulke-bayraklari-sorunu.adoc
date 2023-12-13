@@ -1,6 +1,6 @@
 :imagesdir: images
 
-=  Uçak bileti akışı -> İletişim Formu -> Cep telefonu için ülke seçim ekranında bazı ülkelerin bayrakları görünmüyor
+=  Uçak bileti akışı -> İletişim Formu -> Cep telefonu için ülke seçim ekranında bazı ülke bayraklarının görünmeme sorunu
 
 *Test cihazı:* Samsung Galaxy S20Fe Snapdragon 6/128
 
