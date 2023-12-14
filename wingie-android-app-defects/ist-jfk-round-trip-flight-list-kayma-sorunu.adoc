@@ -1,0 +1,44 @@
+:imagesdir: images
+
+=  IST-JFK 2 adult, CLP currency, Round Trip search yapıldığında flight list sayfası içeriğinin kayma sorunu
+
+*Test cihazı:* Samsung Galaxy S20Fe Snapdragon 6/128
+
+*Test cihazı sürümü:* Android 13
+
+*Test cihazı ekran çözünürlüğü:* 1080 x 2400
+
+*Test cihazı arayüz sürümü:* One UI 5.1
+
+*Uygulama Sürümü:* 4.0.1
+
+*Sorunun Tekrarlanma Tarih-Saati:* 14.12.2023 - 12:00
+
+**Ön Koşullar:**
+
+- IST - JFK rotasında round trip olarak uçuş listelenen en az birer gün olmalı.
+
+**Aşama:**
+
+- Availability
+
+**Senaryo:**
+
+. Uygulama içerisinde sırasıyla "Account" -> "Currency" butonları tıklanır.
+. Currency "CLP" seçilir.
+. "Search" butonuna tıklanır.
+. Search sayfasında "Round Trip" seçeneği seçilir, "Departure" portu IST, "Arrival" portu JFK seçilir.
+. "Depart on" ve "Return on" için uçuş olan herhangi bir tarih seçilebilir.
+. 2 adult yolcu seçilir.
+. "Find best deals" butonuna tıklanır.
+. Availability sayfasında uçuş listesinin görünümü kontrol edilir.
+
+**Oluşan Durum:**
+
+- Uçuş listesi select butonuyla birlikle ekran alanının dışına kaymış görünüyor.
+
+**Beklenen Sonuç:**
+
+- İçerikler ekran alanının dışına kaymamalı.
+
+image::ist-jfk-round-trip-flight-list-kayma-sorunu.png[]

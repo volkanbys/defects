@@ -24,8 +24,8 @@
 
 **Senaryo:**
 
-. Search sayfasında "Tek Yön" seçeneği seçilir, "Nereden" portu IST, "Nereye" portu JFK seçilir.
-. "Gidiş Tarihi" uçuş olan herhangi bir tarih seçilebilir (genellikle içinde bulunulan günden bir gün sonra uçuş olma ihtimali daha yüksek).
+. Search sayfasında "One Way" seçeneği seçilir, "Departure" portu IST, "Arrival" portu JFK seçilir.
+. "Depart on" uçuş olan herhangi bir tarih seçilebilir (genellikle içinde bulunulan günden bir gün sonra uçuş olma ihtimali daha yüksek).
 . 1 adult yolcu seçilir.
 . "Find best deals" butonuna tıklanır.
 . Availability sayfasında currency change butonuna tıklanır, currency "CLP" seçilir.
