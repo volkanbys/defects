@@ -1,0 +1,37 @@
+:imagesdir: images
+
+=  Log out popup tasarımının uygulamanın genel tasarımına uygun olmama sorunu
+
+*Test cihazı:* Samsung Galaxy S20Fe Snapdragon 6/128
+
+*Test cihazı sürümü:* Android 13
+
+*Test cihazı ekran çözünürlüğü:* 1080 x 2400
+
+*Test cihazı arayüz sürümü:* One UI 5.1
+
+*Uygulama Sürümü:* 4.0.1
+
+*Sorunun Tekrarlanma Tarih-Saati:* 14.12.2023 - 13:40
+
+**Ön Koşullar:**
+
+-
+
+**Aşama:**
+
+- Availability
+
+**Senaryo:**
+
+- Search sayfasında (uygulama anasayfası) geri butonuna tıklanır, log out Info popup tasarımı kontrol edilir.
+
+**Oluşan Durum:**
+
+- Info popup’ının tasarımı uygulamanın genel tasarımına uygun görünmüyor (stok android tasarımına benziyor).
+
+**Beklenen Sonuç:**
+
+- Popup’ın tasarımı uygulama tasarımına uygun olmalı (enuygun android uygulamasındaki tasarım örnek alınabilir).
+
+image::logout-popup-tasarim-sorunu.png[]
