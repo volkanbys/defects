@@ -1,0 +1,42 @@
+:imagesdir: images
+
+=  Availability sayfasında Port isimleri uzun olduğunda “Currency Change” ve “Share” butonlarının kaybolma sorunu
+
+*Test cihazı:* Samsung Galaxy S20Fe Snapdragon 6/128
+
+*Test cihazı sürümü:* Android 13
+
+*Test cihazı ekran çözünürlüğü:* 1080 x 2400
+
+*Test cihazı arayüz sürümü:* One UI 5.1
+
+*Uygulama Sürümü:* 4.0.1
+
+*Sorunun Tekrarlanma Tarih-Saati:* 14.12.2023 - 12:30
+
+**Ön Koşullar:**
+
+- BWN-SGN rotasında search işlemi yapılabilmeli.
+
+**Aşama:**
+
+- Availability
+
+**Senaryo:**
+
+. Search sayfasında "One Way" seçeneği seçilir, "Departure" portu BWN, "Arrival" portu SGN seçilir.
+. "Depart on" herhangi bir tarih seçilebilir.
+. 1 adult yolcu seçilir.
+. "Show non-stop flights only" butonu seçili ise seçili olmayan duruma getirilir.
+. "Find best deals" butonuna tıklanır.
+. Availability sayfasında sayfanın sağ üst tarafındaki “Currency Change” ve “Share” butonları kontrol edilir.
+
+**Oluşan Durum:**
+
+- Port isimleri uzun olduğu için “Currency Change” ve “Share” butonları sağ tarafa ekran alanının dışına kayıyor ve kayboluyor.
+
+**Beklenen Sonuç:**
+
+- Butonlar kaybolmamalı (Arrival port ismi uzun olduğunda alt satıra kayarsa sorun düzelebilir).
+
+image::currency-change-ve-share-butonlari-kaybolma-sorunu.png[]
