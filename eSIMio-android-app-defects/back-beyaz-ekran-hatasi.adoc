@@ -1,0 +1,37 @@
+:imagesdir: images
+
+=  Uygulamadan back butonu ile çıkış yaparken beyaz ekran hatası
+
+*Test cihazı:* Samsung Galaxy S20Fe Snapdragon 6/128
+
+*Test cihazı sürümü:* Android 13
+
+*Test cihazı ekran çözünürlüğü:* 1080 x 2400
+
+*Test cihazı arayüz sürümü:* One UI 5.1
+
+*Uygulama Sürümü:* 1.0.2
+
+*Sorunun Tekrarlanma Tarih-Saati:* 14.12.2023 - 20:25
+
+**Ön Koşullar:**
+
+-
+
+**Aşama:**
+
+- Anasayfa
+
+**Senaryo:**
+
+- Uygulama açılır, ardından back butonuna basılır.
+
+**Oluşan Durum:**
+
+- Back butonuna basınca uygulama beyaz ekran hatası veriyor. Uygulamayı komple kapatıp tekrar girene kadar beyaz ekran düzelmiyor.
+
+**Beklenen Sonuç:**
+
+- Back butonuna basınca uygulama beyaz ekran hatası vermemeli. 
+
+image::back-beyaz-ekran-hatasi.png[]
