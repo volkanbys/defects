@@ -1,0 +1,39 @@
+:imagesdir: images
+
+=  Network error uyarı popup mesajının çevirisinin eksik olma sorunu
+
+*Test cihazı:* Samsung Galaxy S20Fe Snapdragon 6/128
+
+*Test cihazı sürümü:* Android 13
+
+*Test cihazı ekran çözünürlüğü:* 1080 x 2400
+
+*Test cihazı arayüz sürümü:* One UI 5.1
+
+*Uygulama Sürümü:* 1.0.2
+
+*Sorunun Tekrarlanma Tarih-Saati:* 14.12.2023 - 21:20
+
+**Ön Koşullar:**
+
+- Cihaz hücresel veya wifi internet ağına bağlı olmamalı.
+
+**Aşama:**
+
+- 
+
+**Senaryo:**
+
+. Cihazın internet bağlantısı kapatılır.
+. Uygulamaya girilir.
+. Uyarı popup'ındaki hata mesajı ve buton texti kontrol edilir. 
+
+**Oluşan Durum:**
+
+. Uyarı popup'ındaki hata mesajı (components.errorCard.defaultTitle) ve buton texti (components.modal.close) çevirisi eksik görünüyor. 
+
+**Beklenen Sonuç:**
+
+- Uyarı popup'ındaki hata mesajı ve buton texti çevirisi eklenmeli.
+
+image::network-error-uyari-mesaji-eksik-ceviri-sorunu.jpeg[]
