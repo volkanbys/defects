@@ -1,0 +1,44 @@
+:imagesdir: images
+
+=  CLP para birimi seçiliyken day carousel alanında next day fiyatının ekrana sığmama ve diğer fiyatların birbirine yapışık görünme sorunu
+
+*Test cihazı:* Samsung Galaxy S20Fe Snapdragon 6/128
+
+*Test cihazı sürümü:* Android 13
+
+*Test cihazı ekran çözünürlüğü:* 1080 x 2400
+
+*Test cihazı arayüz sürümü:* One UI 5.1
+
+*Uygulama Sürümü:* 4.0.1
+
+*Sorunun Tekrarlanma Tarih-Saati:* 14.12.2023 - 10:10
+
+*Not:* Bu sorun https://github.com/volkanbys/defects/blob/defects-volkan/wingie-android-app-defects/clp-para-birimi-estimated-prices-butonu-gorunmeme-sorunu.adoc sorunu ile ilişkili.
+
+**Ön Koşullar:**
+
+- IST - JFK rotasında uçuş listelenen en az 1 gün olmalı.
+
+**Aşama:**
+
+- Availability
+
+**Senaryo:**
+
+. Search sayfasında "Tek Yön" seçeneği seçilir, "Nereden" portu IST, "Nereye" portu JFK seçilir.
+. "Gidiş Tarihi" uçuş olan herhangi bir tarih seçilebilir (genellikle içinde bulunulan günden bir gün sonra uçuş olma ihtimali daha yüksek).
+. 1 adult yolcu seçilir.
+. "Find best deals" butonuna tıklanır.
+. Availability sayfasında currency change butonuna tıklanır, currency "CLP" seçilir.
+. Day carousel alanında fiyatların görünümü kontrol edilir.
+
+**Oluşan Durum:**
+
+- Next day’e ait fiyat ekrana sığmıyor. Yine carousel üzerindeki diğer fiyatlar ise birbirine yapışık görünüyor.
+
+**Beklenen Sonuç:**
+
+- Next day'e ait fiyat ekrana sığmalı. Diğer fiyatlar ise birbirine yapışık durmamalı. (Alanda görünen gün sayısı ikiye düşürülebilir yada bu alanda tasarım değişikliğine gidilebilir)
+
+image::clp-para-birimi-next-day-fiyati-ekrana-sigmama-sorunu.png[]
