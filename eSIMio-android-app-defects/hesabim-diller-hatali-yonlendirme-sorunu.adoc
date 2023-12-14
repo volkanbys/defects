@@ -1,0 +1,37 @@
+:imagesdir: images
+
+=  Diller butonuna tıklayınca diller menüsünün açılmayıp Uygulama Bilgileri ekranının açılma sorunu
+
+*Test cihazı:* Samsung Galaxy S20Fe Snapdragon 6/128
+
+*Test cihazı sürümü:* Android 13
+
+*Test cihazı ekran çözünürlüğü:* 1080 x 2400
+
+*Test cihazı arayüz sürümü:* One UI 5.1
+
+*Uygulama Sürümü:* 1.0.2
+
+*Sorunun Tekrarlanma Tarih-Saati:* 14.12.2023 - 20:20
+
+**Ön Koşullar:**
+
+-
+
+**Aşama:**
+
+- Hesabım
+
+**Senaryo:**
+
+- Uygulama içerisinde sırasıyla "Hesabım" -> "Diller" butonları tıklanır.
+
+**Oluşan Durum:**
+
+- "Diller" butonuna tıklayınca "Uygulama Bilgileri" ekranı açılıyor. 
+
+**Beklenen Sonuç:**
+
+- "Diller" butonuna tıklayınca "Uygulama Bilgileri" ekranı açılmamalı, diller menüsü açılmalı.
+
+image::hesabim-diller-hatali-yonlendirme-sorunu.png[]
