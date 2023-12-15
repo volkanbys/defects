@@ -1,0 +1,42 @@
+:imagesdir: images
+
+=  Aynı kartın tekrar eklenebilme sorunu
+
+*Test cihazı:* Samsung Galaxy S20Fe Snapdragon 6/128
+
+*Test cihazı sürümü:* Android 13
+
+*Test cihazı ekran çözünürlüğü:* 1080 x 2400
+
+*Test cihazı arayüz sürümü:* One UI 5.1
+
+*Uygulama Sürümü:* 1.0.2
+
+*Sorunun Tekrarlanma Tarih-Saati:* 15.12.2023 - 17:45
+
+**Ön Koşullar:**
+
+. Uygulamada login olabilmek için geçerli kullanıcı bilgisi olmalı. 
+. Yeni kart ekleyebilmek adına geçerli kart bilgileri olmalı. 
+
+**Aşama:**
+
+- Hesabım
+
+**Senaryo:**
+
+. Kullanıcı eğer login durumda değilse sırasıyla "Hesabım" -> "Giriş Yap" butonları tıklanır.
+. E-posta yada Google ile giriş yapılır (hangisi için giriş bilgisi mevcut ise kullanılabilir).
+. Eğer kullanıcı login durumdaysa üstteki iki aşama atlanarak sırasıyla "Hesabım" -> "Kartlarım" -> "Yeni Kart Ekle" butonları tıklanır.
+. "Yeni Kart Ekle" menüsünde Kart Numarası, Kart Sahibi Adı, SKT, CVV alanları doldurulup "Kaydet" butonuna tıklanır.
+. "Kartlarım" menüsünde tekrar "Yeni Kart Ekle" butonuna tıklanır, aynı kart bilgileri tekrar girilir, "Kaydet" butonuna tıklanır, kartlarım menüsü kontrol edilir.
+
+**Oluşan Durum:**
+
+- Aynı kart bilgisi tekrar girilip kaydedilebiliyor.
+
+**Beklenen Sonuç:**
+
+- "Yeni Kart Ekle" menüsünde kart numarası girilirken eğer o kart numarası mevcut kartlar içerisinde mevcutsa, kullanıcıya ilgili kartın daha önce eklendiği bilgisi verilmeli ve kullanıcı farklı bir kart numarası girmeden işleme devam edememeli.
+
+image::ayni-kartin-tekrar-eklenebilme-sorunu.jpeg[]
