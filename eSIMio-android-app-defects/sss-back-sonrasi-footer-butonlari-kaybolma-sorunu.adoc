@@ -1,0 +1,47 @@
+:imagesdir: images
+
+=  SSS sayfasından back işlemi sonrası seçili footer butonunun görünmeme sorunu
+
+*Test cihazı:* Samsung Galaxy S20Fe Snapdragon 6/128
+
+*Test cihazı sürümü:* Android 13
+
+*Test cihazı ekran çözünürlüğü:* 1080 x 2400
+
+*Test cihazı arayüz sürümü:* One UI 5.1
+
+*Uygulama Sürümü:* 1.0.2
+
+*Sorunun Tekrarlanma Tarih-Saati:* 15.12.2023 - 16:30
+
+**Ön Koşullar:**
+
+- 
+
+**Aşama:**
+
+- 
+
+**Senaryo:**
+
+. Uygulama içerisinde sırasıyla "Hesabım" -> "SSS" butonları tıklanır.
+. "SSS" sayfası yüklendikten sonra back butonuna basılır.
+. "Anasayfa" butonuna tıklanır, butonun ikon ve texti kontrol edilir.
+. "eSIM'lerim" butonuna tıklanır, butonun ikon ve texti kontrol edilir.
+. "Hesabım" butonuna tıklanır, butonun ikon ve texti kontrol edilir.
+
+**Oluşan Durum:**
+
+. "Anasayfa" butonuna tıklayınca butonun ikon ve texti kayboluyor.
+. "eSIM'lerim" butonuna tıklayınca butonun ikon ve texti kayboluyor.
+. "Hesabım" butonuna tıklayınca butonun ikon ve texti kayboluyor.
+
+**Beklenen Sonuç:**
+
+. "Anasayfa" butonuna tıklayınca butonun ikon ve texti kaybolmamalı.
+. "eSIM'lerim" butonuna tıklayınca butonun ikon ve texti kaybolmamalı.
+. "Hesabım" butonuna tıklayınca butonun ikon ve texti kaybolmamalı.
+
+*Tavsiye:* Footer background rengi beyaz olarak kalırsa sorun ortadan kalkacaktır.
+
+image::sss-back-sonrasi-footer-butonlari-kaybolma-sorunu.png[]
