@@ -12,7 +12,7 @@
 
 *Uygulama Sürümü:* 1.0.2
 
-*Sorunun Tekrarlanma Tarih-Saati:* 14.12.2023 - 20:25
+*Sorunun Tekrarlanma Tarih-Saati:* 20.12.2023 - 16:52
 
 **Ön Koşullar:**
 
@@ -28,10 +28,10 @@
 
 **Oluşan Durum:**
 
-- Back butonuna basınca uygulama beyaz ekran hatası veriyor. Uygulamayı komple kapatıp tekrar girene kadar beyaz ekran düzelmiyor.
+- Back butonuna basınca uygulama beyaz ekranda kalıyor. Uygulamayı komple kapatıp tekrar girene kadar beyaz ekran düzelmiyor.
 
 **Beklenen Sonuç:**
 
-- Back butonuna basınca uygulama beyaz ekran hatası vermemeli. 
+- Back butonuna basınca uygulama beyaz ekranda kalmamalı. 
 
 image::back-beyaz-ekran-hatasi.png[]
