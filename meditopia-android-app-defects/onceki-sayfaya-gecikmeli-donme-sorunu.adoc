@@ -12,7 +12,7 @@
 
 *Uygulama Sürümü:* 3.39.0
 
-*Sorunun Tekrarlanma Tarih-Saati:* 20.12.2023 - 12:10
+*Sorunun Tekrarlanma Tarih-Saati:* 20.12.2023 - 23:08
 
 **Ön Koşullar:**
 
@@ -32,14 +32,14 @@
 . "Programlar" sekmesi tıklanır.
 . "İlk Adımlar" seçeneği tıklanır.
 . Sayfanın sol üst köşesindeki "X" butonuna tıklanır.
-. "X" butonuna tıkladıktan sonra ilgili ekran kapanana kadar geçen süre kontrol edilir.
+. "X" butonuna tıkladıktan sonra "İlk Adımlar" ekranı kapanana kadar geçen süre kontrol edilir.
 
 **Oluşan Durum:**
 
-- "X" butonuna tıkladıktan sonra ilgili ekran kapanana kadar ~1 sn süre geçiyor.
+- "X" butonuna tıkladıktan sonra "İlk Adımlar" ekranı kapanana kadar ~1 sn süre geçiyor.
 
 **Beklenen Sonuç:**
 
-- "X" butonuna tıkladıktan sonra ilgili ekran kapanana kadar geçen süre olabilecek en minimum seviyeye indirilmeli.
+- "X" butonuna tıkladıktan sonra "İlk Adımlar" ekranı kapanana kadar geçen süre olabilecek en minimum seviyeye indirilmeli.
 
 image::onceki-sayfaya-gecikmeli-donme-sorunu.png[]
