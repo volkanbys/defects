@@ -1,6 +1,6 @@
 :imagesdir: images
 
-=  “Pnr Kodu” inputuna kod 6 haneden fazla karakter girilebilme sorunu
+=  “Pnr Kodu” inputuna 6 haneden fazla karakter girilebilme sorunu
 
 *Test cihazı:* Samsung Galaxy S20Fe Snapdragon 6/128
 
@@ -12,7 +12,7 @@
 
 *Uygulama Sürümü:* 7.0.6
 
-*Sorunun Tekrarlanma Tarih-Saati:* 12.12.2023 - 15:00
+*Sorunun Tekrarlanma Tarih-Saati:* 20.12.2023 - 22:42
 
 **Ön Koşullar:**
 
