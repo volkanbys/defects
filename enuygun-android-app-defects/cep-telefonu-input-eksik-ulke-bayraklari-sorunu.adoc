@@ -25,7 +25,7 @@
 **Senaryo:**
 
 . Search sayfasında "Tek Yön" seçeneği seçilir, "Nereden" ve "Nereye" kısımları uçuş listelenme ihtimali yüksek olan herhangi bir rota seçilebilir (örn ADA - SAW).
-. "Gidiş Tarihi" rastgele seçilebilir (genellikle içinde bulunulan günden bir gün sonra uçuş olma ihtimali daha yüksek).
+. "Gidiş Tarihi" uçuş olan herhangi bir tarih seçilebilir (genellikle içinde bulunulan günden bir gün sonra uçuş olma ihtimali daha yüksek).
 . 1 yetişkin yolcu seçilir.
 . "UCUZ BİLET BUL" butonuna tıklanır.
 . Availability sayfasında herhangi bir uçuş, mevcut olan herhangi bir paketle seçilir.
