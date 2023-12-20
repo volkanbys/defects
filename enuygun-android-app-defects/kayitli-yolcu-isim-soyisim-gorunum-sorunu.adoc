@@ -12,7 +12,7 @@
 
 *Uygulama Sürümü:* 7.0.6
 
-*Sorunun Tekrarlanma Tarih-Saati:* 13.12.2023 - 20:38
+*Sorunun Tekrarlanma Tarih-Saati:* 20.12.2023 - 22:25
 
 **Ön Koşullar:**
 
@@ -24,9 +24,8 @@
 
 **Senaryo:**
 
-. Uygulama içerisinde "Hesabım" butonu tıklanır, kullanıcı login durumdaysa "Çıkış Yap" butonuna tıklayarak log out olması sağlanır (uygulamaya girildiğinde log out durumdaysa bu aşama atlanır).
-. "Hesabım" -> "Giriş Yap" butonları tıklanır.
-. Giriş yap sayfasında "E-posta" ve "Şifre" girilip "Giriş yap" butonuna tıklanır.
+. "Hesabım" butonu tıklanır.
+. Kullanıcı log out durumdaysa "Giriş Yap" butonu tıklanır ve "E-posta" - "Şifre" girilip "Giriş yap" butonuna tıklanır. (kullanıcı login durumdaysa bu aşama atlanır)
 . "Yolcularım" butonu tıklanır.
 . Yolcularım sayfasında hesap sahibi olan yolcu tıklanır.
 . Yolcu ad soyadı "Volkan Büyükyurtsever" olarak değiştirilir ve kaydet butonuna tıklanır.
