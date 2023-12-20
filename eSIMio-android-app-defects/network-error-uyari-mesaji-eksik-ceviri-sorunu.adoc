@@ -12,7 +12,7 @@
 
 *Uygulama Sürümü:* 1.0.2
 
-*Sorunun Tekrarlanma Tarih-Saati:* 14.12.2023 - 21:20
+*Sorunun Tekrarlanma Tarih-Saati:* 20.12.2023 - 21:00
 
 **Ön Koşullar:**
 
@@ -30,7 +30,7 @@
 
 **Oluşan Durum:**
 
-. Uyarı popup'ındaki hata mesajı (components.errorCard.defaultTitle) ve buton texti (components.modal.close) çevirisi eksik görünüyor. 
+- Uyarı popup'ındaki hata mesajı (components.errorCard.defaultTitle) ve buton texti (components.modal.close) çevirisi eksik görünüyor. 
 
 **Beklenen Sonuç:**
 
