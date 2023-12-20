@@ -1,0 +1,38 @@
+:imagesdir: images
+
+=  Başlangıç akışında program içeriklerinin tümünün seçilememe sorunu
+
+*Test cihazı:* Samsung Galaxy S20Fe Snapdragon 6/128
+
+*Test cihazı sürümü:* Android 13
+
+*Test cihazı ekran çözünürlüğü:* 1080 x 2400
+
+*Test cihazı arayüz sürümü:* One UI 5.1
+
+*Uygulama Sürümü:* 3.39.0
+
+*Sorunun Tekrarlanma Tarih-Saati:* 19.12.2023 - 16:30
+
+**Ön Koşullar:**
+
+. Uygulamaya ilk kez girilmiş olmalı, başlangıç sayfalarında ilerlenmemiş olmalı.
+
+**Aşama:**
+
+- Başlangıç akışı
+
+**Senaryo:**
+
+. "Programında ne tip içerikler görmek istersin" sayfasına gelinceye kadar zorunlu alanlar rastgele seçilerek ilerlenir.
+. "Programında ne tip içerikler görmek istersin" sayfasında sırasıyla her bir seçenek işaretli duruma getirilir.
+
+**Oluşan Durum:**
+
+- "Programında ne tip içerikler görmek istersin" sayfasında "İstediğin kadar seçebilirsin." ifadesi bulunmasına rağmen 6 seçenekten sadece 5 tanesi seçilebiliyor.
+
+**Beklenen Sonuç:**
+
+- "Programında ne tip içerikler görmek istersin" sayfasında kullanıcı seçeneklerin tamamını seçebilmeli.
+
+image::baslangic-program-icerik-tumu-secilememe-sorunu.png[]
