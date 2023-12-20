@@ -12,7 +12,7 @@
 
 *Uygulama Sürümü:* 7.0.6
 
-*Sorunun Tekrarlanma Tarih-Saati:* 13.12.2023 - 19:20
+*Sorunun Tekrarlanma Tarih-Saati:* 20.12.2023 - 22:40
 
 **Ön Koşullar:**
 
@@ -25,11 +25,11 @@
 
 **Senaryo:**
 
-. Uygulama içerisinde sırasıyla "Hesabım" -> "Giriş Yap" butonları tıklanır.
-. Giriş yap sayfasında "E-posta" ve "Şifre" girilip "Giriş yap" butonuna tıklanır.
+. "Hesabım" butonu tıklanır.
+. Kullanıcı log out durumdaysa "Giriş Yap" butonu tıklanır ve "E-posta" - "Şifre" girilip "Giriş yap" butonuna tıklanır. (kullanıcı login durumdaysa bu aşama atlanır)
 . "Ara (Search)" butonuna tıklanır.
 . Search sayfasında "Tek Yön" seçeneği seçilir, "Nereden" ve "Nereye" kısımları uçuş listelenme ihtimali yüksek olan herhangi bir rota seçilebilir (örn ADA - SAW).
-. "Gidiş Tarihi" rastgele seçilebilir (genellikle içinde bulunulan günden bir gün sonra uçuş olma ihtimali daha yüksek).
+. "Gidiş Tarihi" uçuş olan herhangi bir tarih seçilebilir (genellikle içinde bulunulan günden bir gün sonra uçuş olma ihtimali daha yüksek).
 . 1 yetişkin yolcu seçilir.
 . "UCUZ BİLET BUL" butonuna tıklanır.
 . Availability sayfasında herhangi bir uçuş, mevcut olan herhangi bir paketle seçilir.
