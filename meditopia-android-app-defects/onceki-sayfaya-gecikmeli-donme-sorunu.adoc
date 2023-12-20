@@ -1,0 +1,45 @@
+:imagesdir: images
+
+=  Meditasyon akışından önceki sayfaya dönerken gecikmeli dönme sorunu
+
+*Test cihazı:* Samsung Galaxy S20Fe Snapdragon 6/128
+
+*Test cihazı sürümü:* Android 13
+
+*Test cihazı ekran çözünürlüğü:* 1080 x 2400
+
+*Test cihazı arayüz sürümü:* One UI 5.1
+
+*Uygulama Sürümü:* 3.39.0
+
+*Sorunun Tekrarlanma Tarih-Saati:* 20.12.2023 - 12:10
+
+**Ön Koşullar:**
+
+- Login olabilmek için geçerli kullanıcı adı (e-posta adresi) ve şifre bilgisi bulunmalı.
+
+**Aşama:**
+
+- Meditasyon
+
+**Senaryo:**
+
+. Eğer uygulama login durumda ise 5. maddeden itibaren devam edilir.
+. Eğer uygulama login durumda değil ise "Zaten hesabın var mı? Giriş yap." bağlantısına tıklanır.
+. E-posta adresi ve şifre girilip "DEVAM ET" butonuna tıklanır.
+. Ekranda premium üyelik ile alakalı popup çıkarsa "X" butonuna tıklayarak kapatılır.
+. Footer alanında "Meditasyon" butonuna tıklanır.
+. "Programlar" sekmesi tıklanır.
+. "İlk Adımlar" seçeneği tıklanır.
+. Sayfanın sol üst köşesindeki "X" butonuna tıklanır.
+. "X" butonuna tıkladıktan sonra ilgili ekran kapanana kadar geçen süre kontrol edilir.
+
+**Oluşan Durum:**
+
+- "X" butonuna tıkladıktan sonra ilgili ekran kapanana kadar ~1 sn süre geçiyor.
+
+**Beklenen Sonuç:**
+
+- "X" butonuna tıkladıktan sonra ilgili ekran kapanana kadar geçen süre olabilecek en minimum seviyeye indirilmeli.
+
+image::onceki-sayfaya-gecikmeli-donme-sorunu.png[]
