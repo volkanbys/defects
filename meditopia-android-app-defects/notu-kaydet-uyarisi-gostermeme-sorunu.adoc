@@ -37,7 +37,7 @@
 **Oluşan Durum:**
 
 . Not girildikten sonra "X" butonuna tıklandığında herhangi bir uyarı vermeden ekran kapanıyor.
-. "Not al" ekranına tekrar tıklandığında temiz bir not sayfası açılıyor. Girilmiş olan "Test" notu ve seçilmiş olan duygu seçeneği görünmüyor.
+. "Not al" butonuna tekrar tıklandığında temiz bir not sayfası açılıyor. Girilmiş olan "Test" notu ve seçilmiş olan duygu seçeneği görünmüyor.
 
 **Beklenen Sonuç:**
 
