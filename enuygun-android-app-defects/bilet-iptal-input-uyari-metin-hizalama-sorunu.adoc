@@ -12,7 +12,7 @@
 
 *Uygulama Sürümü:* 7.0.6
 
-*Sorunun Tekrarlanma Tarih-Saati:* 12.12.2023 - 19:50
+*Sorunun Tekrarlanma Tarih-Saati:* 20.12.2023 - 21:15
 
 **Ön Koşullar:**
 
@@ -31,11 +31,10 @@
 
 **Oluşan Durum:**
 
-- Uyarı yazıları inputlara yapışık durumda görünüyor. 
+- Hem "Uçak Bileti" hem de "Otobüs Bileti" sekmeleri için uyarı yazıları inputlara yapışık durumda görünüyor. 
 
 **Beklenen Sonuç:**
 
-. Uyarı yazıları inputlara yapışık durmamalı biraz boşluk olmalı. Bu bağlamda inputlar arasındaki boşluklar da bir miktar arttırılmalı.
-. Otobüs bileti sekmesi için de üst maddede belirtilen aynı düzenleme yapılmalı.
+- Hem "Uçak Bileti" hem de "Otobüs Bileti" sekmeleri için uyarı yazıları inputlara yapışık durmamalı, biraz boşluk olmalı. Bu bağlamda inputlar arasındaki boşluklar da bir miktar arttırılmalı.
 
 image::bilet-iptal-input-uyari-metin-hizalama-sorunu.png[]
