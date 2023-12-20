@@ -1,0 +1,48 @@
+:imagesdir: images
+
+=  Notu kaydetmeden ekrandan çıkış yapılırken kaydetme uyarısının gösterilmeme sorunu
+
+*Test cihazı:* Samsung Galaxy S20Fe Snapdragon 6/128
+
+*Test cihazı sürümü:* Android 13
+
+*Test cihazı ekran çözünürlüğü:* 1080 x 2400
+
+*Test cihazı arayüz sürümü:* One UI 5.1
+
+*Uygulama Sürümü:* 3.39.0
+
+*Sorunun Tekrarlanma Tarih-Saati:* 20.12.2023 - 13:00
+
+**Ön Koşullar:**
+
+- Login olabilmek için geçerli kullanıcı adı (e-posta adresi) ve şifre bilgisi bulunmalı.
+
+**Aşama:**
+
+- Homepage
+
+**Senaryo:**
+
+. Eğer uygulama login durumda ise 5. maddeden itibaren devam edilir.
+. Eğer uygulama login durumda değil ise "Zaten hesabın var mı? Giriş yap." bağlantısına tıklanır.
+. E-posta adresi ve şifre girilip "DEVAM ET" butonuna tıklanır.
+. Ekranda premium üyelik ile alakalı popup çıkarsa "X" butonuna tıklayarak kapatılır.
+. Footer alanında "Bugün" butonuna tıklanır.
+. Bugün ekranında Story alanının alt tarafındaki butonlar (Favorilerim, Mod Takibi vs.) sola doğru scroll yapılarak en sona kadar ilerlenir ve "Not al" butonuna tıklanır.
+. Not al ekranında "Bugün" seçeneğinden herhangi bir duygu seçilir.
+. "Bugün nasılsın? Duygularını not al." kısmına "Test" notu girilir, ardından "X" butonuna tıklanır.
+. "Not al" butonuna tekrar tıklanır, önceki aşamada girilmiş olan "Test" notu ve duygu seçeneği kontrol edilir.
+
+**Oluşan Durum:**
+
+. Not girildikten sonra "X" butonuna tıklandığında herhangi bir uyarı vermeden ekran kapanıyor.
+. "Not al" ekranına tekrar tıklandığında temiz bir not sayfası açılıyor. Girilmiş olan "Test" notu ve seçilmiş olan duygu seçeneği görünmüyor.
+
+**Beklenen Sonuç:**
+
+. Alttaki iki seçenekten birisi uygulanmalı.
+. Seçenek-1: Not girildikten sonra "X" butonuna tıklandığında kullanıcıya girdiği notun silineceğine dair uyarı gösterilmeli.
+. Seçenek-2: Not girildikten sonra "X" butonuna tıklayıp çıkılıp not al ekranına tekrar girildiğinde kullanıcının en son girdiği duygu seçeneği ve not ekranda görünmeli.
+
+image::notu-kaydet-uyarisi-gostermeme-sorunu.png[]
