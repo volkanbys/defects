@@ -14,7 +14,7 @@
 
 **Ön Koşullar:**
 
-- Login olunmamalı.
+- Senaryo logout durumda uygulanmalı.
 
 **Aşama:**
 

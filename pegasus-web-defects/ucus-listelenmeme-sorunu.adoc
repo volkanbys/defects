@@ -8,13 +8,13 @@
 
 *Test cihazı ekran çözünürlüğü:* 1280*800
 
-*Uygulamanın test edildiği browser:* Firefox 119.0.1
+*Uygulamanın test edildiği browser:* Firefox 120.0.1
 
-*Sorunun Tekrarlanma Saati:* 11.12.2023 , 20:10
+*Sorunun Tekrarlanma Saati:* 21.12.2023 , 15:55
 
 **Ön Koşullar:**
 
-. Login olunmamalı.
+- Senaryo logout durumda uygulanmalı.
 
 **Aşama:**
 
@@ -29,16 +29,16 @@
 . Yolcu: 1 adult seçilir.
 . "UCUZ UÇUŞ ARA" butonuna tıklanır.
 . Availability sayfasında uçuş listelenme alanı kontrol edilir.
-. Üstteki 7 madde tekrar uygulanır ve availability sayfasında uçuş listelenme alanı tekrar kontrol edilir.
+. Sayfanın sol üst tarafındaki Pegasus logosuna tıklanır, 2,3,4,5,6,7 nolu maddeler tekrar uygulanır, availability sayfasında uçuş listelenme alanı tekrar kontrol edilir.
 
 **Oluşan Durum:**
 
-. "UCUZ UÇUŞ ARA" butonuna tıkladıktan sonra availability sayfasında “Uçuşların listelenmesinde bir hata oluştu. Lütfen tekrar deneyiniz.” uyarısı veriyor. 
-. Uçuş arama işlemi ikinci kez gerçekleştirildikten sonra uçuşlar listeleniyor.
+. "UCUZ UÇUŞ ARA" butonuna tıkladıktan sonra availability sayfasında uçuş listelenme alanında “Uçuşların listelenmesinde bir hata oluştu. Lütfen tekrar deneyiniz.” uyarısı geliyor. 
+. Pegasus logosuna tıkladıktan sonra aynı işlemler tekrar uygulandığında uçuşlar listeleniyor.
 
 **Beklenen Sonuç:**
 
-- Uçuş arama işlemi ilk gerçekleştirildiğinde de uyarı vermemeli, uçuşlar listelenmeli veya ilgili tarihte uçuş yoksa uçuş olmadığına dair uyarı verilmeli.
+- Uçuş arama işlemi ilk gerçekleştirildiğinde de uyarı vermemeli, uçuşlar listelenmeli veya ilgili tarihte uçuş yoksa uçuş olmadığına dair uyarı gösterilmeli.
 
 image::ucus-listelenmeme-sorunu-1.png[]
 image::ucus-listelenmeme-sorunu-2.png[]
