@@ -12,11 +12,12 @@
 
 *Uygulama Sürümü:* 4.0.1
 
-*Sorunun Tekrarlanma Tarih-Saati:* 14.12.2023 - 10:08
+*Sorunun Tekrarlanma Tarih-Saati:* 21.12.2023 - 16:29
 
 **Ön Koşullar:**
 
-- IST - JFK rotasında uçuş listelenen en az 1 gün olmalı.
+. IST - JFK rotasında uçuş listelenen en az 1 gün olmalı.
+. Default currency USD veya EUR olmalı.
 
 **Aşama:**
 
@@ -38,6 +39,6 @@
 **Beklenen Sonuç:**
 
 - Seçili para birimi farketmeksizin "Estimated Prices" butonu görünmeli.
-(Estimated prices butonu 3 çizgi grafik ikonu olan buton)
+(Estimated prices butonu: 3 çizgi grafik ikonu olan buton)
 
 image::clp-para-birimi-estimated-prices-butonu-gorunmeme-sorunu.png[]
