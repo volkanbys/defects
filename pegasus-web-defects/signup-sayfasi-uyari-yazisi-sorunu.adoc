@@ -8,7 +8,9 @@
 
 *Test cihazı ekran çözünürlüğü:* 1280*800
 
-*Uygulamanın test edildiği browser:* Firefox 119.0.1
+*Uygulamanın test edildiği browser:* Firefox 120.0.1
+
+*Sorunun Tekrarlanma Tarih-Saati:* 21.12.2023 - 15:37
 
 **Ön Koşullar:**
 
