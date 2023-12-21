@@ -8,12 +8,14 @@
 
 *Test cihazı ekran çözünürlüğü:* 1280*800
 
-*Uygulamanın test edildiği browser:* Firefox 119.0.1
+*Uygulamanın test edildiği browser:* Firefox 120.0.1
+
+*Sorunun Tekrarlanma Tarih-Saati:* 21.12.2023 - 14:40
 
 **Ön Koşullar:**
 
 . ADA - ESB rotasında gidiş dönüş için uçuş listelenen en az birer gün olmalı.
-. Anasayfada default para birimi TL olmalı.
+. Default para birimi TL olmalı.
 . Login olunmamalı.
 
 **Aşama:**
@@ -25,7 +27,7 @@
 . https://www.flypgs.com/ linkine girilir.
 . Uçuş arama alanında "Gidiş-Dönüş" seçeneği tıklanır.
 . Kalkış portu Adana (ADA), varış portu Ankara (ESB) seçilir.
-. Gidiş tarihi içinde bulunulan günden bir gün sonra, dönüş tarihi içinde bulunulan günden iki gün sonra olacak şekilde seçilir.
+. Gidiş tarihi içinde bulunulan günden bir gün sonra, dönüş tarihi içinde bulunulan günden iki gün sonra olacak şekilde seçilir. (bu şekilde seçildiğinde uçuş olma ihtimali yüksek oluyor, eğer uçuş yoksa uçuş olan herhangi bir tarih de seçilebilir)
 . Yolcular: 2 Adult, 1 Child, 1 Infant seçilir.
 . "UCUZ UÇUŞ ARA" butonuna tıklanır.
 . Availability sayfasında uçuş listesinde gidiş için ilk sıradaki uçuş "Comfort Flex" paketi ile seçilir, ardından dönüş için ilk sıradaki uçuş "Comfort Flex" paketi ile seçilir.
@@ -34,8 +36,8 @@
 
 **Oluşan Durum:**
 
-. Sayfanın para biriminin EUR olarak değişmesi 7-8 saniye kadar sürüyor.
-. Sayfanın para biriminin TL olarak değişmesi 7-8 saniye kadar sürüyor.
+. Sayfadaki fiyatların EUR olarak değişmesi 7-8 saniye kadar sürüyor.
+. Sayfadaki fiyatların TL olarak değişmesi 7-8 saniye kadar sürüyor.
 
 **Beklenen Sonuç:**
 
