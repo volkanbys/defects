@@ -2,17 +2,21 @@
 
 =  Tekerlekli sandalye hizmeti seçerken sayfadaki tüm butonların tıklanamaz hale gelme sorunu
 
+*NOT:* Bu sorun bazen tekrarlanıyor.
+
 *Test cihazı:* Macbook Air M1 8/256 
 
 *Test cihazı sürümü:* MacOs Sonoma 14.0
 
 *Test cihazı ekran çözünürlüğü:* 1280*800
 
-*Uygulamanın test edildiği browser:* Firefox 119.0.1
+*Uygulamanın test edildiği browser:* Firefox 120.0.1
+
+*Sorunun Tekrarlanma Saati:* 21.12.2023 , 16:14
 
 **Ön Koşullar:**
 
-. Login olunmamalı.
+. Senaryo logout durumda uygulanmalı.
 . ADA - ESB rotasında uçuş listelenen en az bir gün olmalı.
 
 **Aşama:**
@@ -40,7 +44,6 @@
 **Oluşan Durum:**
 
 - Sayfadaki hiçbir butona tıklanamıyor, buna bağlı olarak akışta ilerlenemiyor.
-
 
 **Beklenen Sonuç:**
 

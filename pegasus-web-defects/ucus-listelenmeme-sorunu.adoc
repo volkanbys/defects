@@ -29,7 +29,7 @@
 . Yolcu: 1 adult seçilir.
 . "UCUZ UÇUŞ ARA" butonuna tıklanır.
 . Availability sayfasında uçuş listelenme alanı kontrol edilir.
-. Sayfanın sol üst tarafındaki Pegasus logosuna tıklanır, 2,3,4,5,6,7 nolu maddeler tekrar uygulanır, availability sayfasında uçuş listelenme alanı tekrar kontrol edilir.
+. Sayfanın sol üst tarafındaki Pegasus logosuna tıklanır, 2,3,4,5,6,7 nolu maddeler tekrar uygulanır.
 
 **Oluşan Durum:**
 
