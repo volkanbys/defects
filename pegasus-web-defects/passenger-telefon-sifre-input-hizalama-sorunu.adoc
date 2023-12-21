@@ -2,6 +2,8 @@
 
 =  Passenger sayfasında cep telefonu ve şifre inputlarının hizalı olmama sorunu
 
+*NOT:* Sorun 21.12.2023 - 15:18 itibariyle tekrarlanamadı.
+
 *Test cihazı:* Macbook Air M1 8/256 
 
 *Test cihazı sürümü:* MacOs Sonoma 14.0
@@ -9,6 +11,8 @@
 *Test cihazı ekran çözünürlüğü:* 1280*800
 
 *Uygulamanın test edildiği browser:* Firefox 119.0.1
+
+*Sorunun Tekrarlanma Tarih-Saati:* 8.12.2023 - 16:09
 
 **Ön Koşullar:**
 
@@ -23,7 +27,7 @@
 
 . https://www.flypgs.com/ linkine girilir.
 . Uçuş arama alanında "Tek Yön" seçeneği tıklanır.
-. Kalkış ve varış portları uçuş olan herhangi bir port seçilir.
+. Kalkış ve varış portları uçuş olan herhangi bir port seçilir (İstanbul - Antalya arasında genellikle her gün uçuş oluyor).
 . Gidiş tarihi için uçuş olan herhangi bir gün seçilir.
 . Yolcu 1 Adult seçilir.
 . "UCUZ UÇUŞ ARA" butonuna tıklanır.
