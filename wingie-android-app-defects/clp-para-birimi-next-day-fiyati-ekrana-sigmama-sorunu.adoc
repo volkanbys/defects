@@ -12,13 +12,14 @@
 
 *Uygulama Sürümü:* 4.0.1
 
-*Sorunun Tekrarlanma Tarih-Saati:* 14.12.2023 - 10:10
+*Sorunun Tekrarlanma Tarih-Saati:* 22.12.2023 - 15:13
 
 *Not:* Bu sorun https://github.com/volkanbys/defects/blob/defects-volkan/wingie-android-app-defects/clp-para-birimi-estimated-prices-butonu-gorunmeme-sorunu.adoc sorunu ile ilişkili.
 
 **Ön Koşullar:**
 
-- IST - JFK rotasında uçuş listelenen en az 1 gün olmalı.
+. IST - JFK rotasında uçuş listelenen en az 1 gün olmalı.
+. Default currency USD veya EUR olmalı.
 
 **Aşama:**
 
