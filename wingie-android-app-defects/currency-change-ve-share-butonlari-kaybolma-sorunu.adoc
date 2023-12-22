@@ -12,11 +12,12 @@
 
 *Uygulama Sürümü:* 4.0.1
 
-*Sorunun Tekrarlanma Tarih-Saati:* 14.12.2023 - 12:30
+*Sorunun Tekrarlanma Tarih-Saati:* 22.12.2023 - 15:16
 
 **Ön Koşullar:**
 
-- BWN-SGN rotasında search işlemi yapılabilmeli.
+- BWN - SGN rotasında search işlemi yapılabilmeli.
+- SAW - ADA rotasında search işlemi yapılabilmeli.
 
 **Aşama:**
 
@@ -30,13 +31,16 @@
 . "Show non-stop flights only" butonu seçili ise seçili olmayan duruma getirilir.
 . "Find best deals" butonuna tıklanır.
 . Availability sayfasında sayfanın sağ üst tarafındaki “Currency Change” ve “Share” butonları kontrol edilir.
+. 1,2,3,4,5 nolu aşamalar SAW - ADA rotası için de uygulanır.
+. Availability sayfasında  tekrar sayfanın sağ üst tarafındaki “Currency Change” ve “Share” butonları kontrol edilir.
 
 **Oluşan Durum:**
 
-- Port isimleri uzun olduğu için “Currency Change” ve “Share” butonları sağ tarafa ekran alanının dışına kayıyor ve kayboluyor.
+. Port isimleri uzun olduğu için “Currency Change” ve “Share” butonları sağ tarafa ekran alanının dışına kayıyor ve kayboluyor.
+. SAW - ADA rotası ile işlem yapıldığında “Currency Change” ve “Share” butonları görünüyor (bu olması gereken durum, sorun yok).
 
 **Beklenen Sonuç:**
 
-- Butonlar kaybolmamalı (Arrival port ismi uzun olduğunda alt satıra kayarsa sorun düzelebilir).
+- Port isimleri uzun olduğunda “Currency Change” ve “Share” butonları kaybolmamalı (Arrival port ismi uzun olduğunda alt satıra kaydırılması belki çözüm olabilir).
 
 image::currency-change-ve-share-butonlari-kaybolma-sorunu.png[]
