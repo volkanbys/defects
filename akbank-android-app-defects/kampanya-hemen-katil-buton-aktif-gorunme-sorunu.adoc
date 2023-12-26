@@ -1,0 +1,47 @@
+:imagesdir: images
+
+=  Daha önce katılım sağlanan kampanya için "Hemen Katıl" butonunun aktif görünmeye devam etme sorunu
+
+*Test cihazı:* Samsung Galaxy S20Fe Snapdragon 6/128
+
+*Test cihazı sürümü:* Android 13
+
+*Test cihazı ekran çözünürlüğü:* 1080 x 2400
+
+*Test cihazı arayüz sürümü:* One UI 5.1
+
+*Uygulama Sürümü:* 4.38.0
+
+*Sorunun Tekrarlanma Tarih-Saati:* 26.12.2023 - 14:40
+
+**Ön Koşullar:**
+
+. Uygulamaya giriş yapabilmek adına geçerli giriş bilgileri olmalı (Müşteri/TC kimlik no ve Şifre)
+. Kullanıcının henüz katılmadığı ve katılım sağlayabileceği en az 1 kampanya bulunmalı.
+
+**Aşama:**
+
+- Kampanyalar
+
+**Senaryo:**
+
+. Uygulamaya girilir, "Müşteri veya TC kimlik numaranı gir" ve "Akbank Şifresi" inputları doldurulur, giriş butonuna tıklanır.
+. Telefona sms ile gelen cep şifre şifre ekranında girilir ve giriş butonuna tıklanır.
+. Anasayfada "İşlemler" alanına scroll yapılır.
+. "Kampanyalar" butonu tıklanır.
+. "Kampanyalar" alanında "Tüm kampanyalar" tıklanır.
+. İlk sıradaki kampanyanın "Hemen katıl" butonuna tıklanır, ardından "Hemen katıl" butonuna tekrar tıklanır, daha önce kampanyaya katılım sağlandığını belirten popup kapatılır.
+. Ekranda geri ok (<-) butonuna tıklanır.
+. Tekrar "Kampanyalar" -> "Tüm Kampanyalar" tıklanır.
+. 6. maddede katılım sağlanmış olan kampanya bulunur, "Hemen katıl" butonu kontrol edilir ve tekrar üzerine tıklanır.
+
+**Oluşan Durum:**
+
+- Kampanyalar ekranından geri dönüp tekrar girildiği senaryoda, katılım sağlanmış olan kampanyada "Hemen katıl" butonu aktif görünüyor, üzerine tıklandığında herhangi bir aksiyon almıyor.
+
+**Beklenen Sonuç:**
+
+. İlgili kampanya için "Hemen katıl" butonuna ilk tıklamada kullanıcının kampanyaya katılımı başarılıysa buton pasif görünmeli (kullanıcının kampanyaya katılım sağladığına dair popup gösterilmeye devam etmeli)
+. Eğer kullanıcı ilgili kampanyaya katılmış olduğu halde buton yine de aktif gösterilmek isteniyorsa, kullanıcı bu butona her tıklamasında kampanyaya katıldığına dair uyarı görmeli.
+
+image::kampanya-hemen-katil-buton-aktif-gorunme-sorunu.jpeg[]
