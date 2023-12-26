@@ -26,12 +26,12 @@
 **Senaryo:**
 
 . Uygulama anasayfasında (login öncesi anasayfa) "En Yakın Akbank" butonu tıklanır.
-. Sol alt köşedeki konum butonuna tıklanır.
+. "En Yakın Akbank" sayfasında sol alt köşedeki konum butonuna tıklanır.
 . Harita içerisinde konum ikonu kontrol edilir.
 
 **Oluşan Durum:**
 
-- Uygulamanın yüklü olduğu cihaz eğer Akbank ATM/Şubelerinin yoğun olduğu bir konumdaysa cihazın konumunu gösteren konum ikonu ATM/Şube ikonlarının arkasında kalıyor ve kullanıcı bulunduğu konumu göremiyor.
+- Uygulamanın yüklü olduğu cihaz eğer Akbank ATM/Şubelerinin yoğun olduğu bir konumdaysa cihazın konumunu gösteren konum ikonu ATM/Şube ikonlarının arkasında kalıyor, kullanıcı bulunduğu konumu ve haliyle etrafında hangi ATM veya şubelerin olduğunu göremiyor.
 
 **Beklenen Sonuç:**
 
