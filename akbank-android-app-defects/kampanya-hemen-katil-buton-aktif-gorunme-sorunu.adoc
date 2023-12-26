@@ -30,7 +30,7 @@
 . Anasayfada "İşlemler" alanına scroll yapılır.
 . "Kampanyalar" butonu tıklanır.
 . "Kampanyalar" alanında "Tüm kampanyalar" tıklanır.
-. İlk sıradaki kampanyanın "Hemen katıl" butonuna tıklanır, ardından "Hemen katıl" butonuna tekrar tıklanır, daha önce kampanyaya katılım sağlandığını belirten popup kapatılır.
+. İlk sıradaki kampanyanın "Hemen katıl" butonuna tıklanır, ardından "Hemen katıl" butonuna tekrar tıklanır, daha önce kampanyaya katılım sağlandığını belirten popupta "Tamam" butonuna tıklanır.
 . Ekranda geri ok (<-) butonuna tıklanır.
 . Tekrar "Kampanyalar" -> "Tüm Kampanyalar" tıklanır.
 . 6. maddede katılım sağlanmış olan kampanya bulunur, "Hemen katıl" butonu kontrol edilir ve tekrar üzerine tıklanır.
@@ -41,7 +41,7 @@
 
 **Beklenen Sonuç:**
 
-. İlgili kampanya için "Hemen katıl" butonuna ilk tıklamada kullanıcının kampanyaya katılımı başarılıysa buton pasif görünmeli (kullanıcının kampanyaya katılım sağladığına dair popup gösterilmeye devam etmeli)
+. İlgili kampanya için "Hemen katıl" butonuna ilk tıklamada kullanıcının kampanyaya katılımı başarılıysa buton pasif görünmeli ve içerisinde "Hemen katıl" yerine "Katılım sağlandı" yazmalı.
 . Eğer kullanıcı ilgili kampanyaya katılmış olduğu halde buton yine de aktif gösterilmek isteniyorsa, kullanıcı bu butona her tıklamasında kampanyaya katıldığına dair uyarı görmeli.
 
 image::kampanya-hemen-katil-buton-aktif-gorunme-sorunu.jpeg[]
