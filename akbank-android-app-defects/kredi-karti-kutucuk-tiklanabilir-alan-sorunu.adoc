@@ -40,6 +40,6 @@
 
 **Beklenen Sonuç:**
 
-. Uygulamaya girdikten sonra "Hesaplar ve kartlar" alanında kredi kartına ait kutucuğun içerisinde kredi kartı isminin (Örn: Axess Platin MC D) bulunduğu satır haricindeki bir alana (2 nolu görseldeki alan) tıklandığında da ilgili alan aksiyon almalı, kredi kartı detay ekranına yönlendirme olmalı.
+- Uygulamaya girdikten sonra "Hesaplar ve kartlar" alanında kredi kartına ait kutucuğun içerisinde kredi kartı isminin (Örn: Axess Platin MC D) bulunduğu satır haricindeki bir alana (2 nolu görseldeki alan) tıklandığında da ilgili alan aksiyon almalı, kredi kartı detay ekranına yönlendirme olmalı.
 
 image::kredi-karti-kutucuk-tiklanabilir-alan-sorunu.png[]
