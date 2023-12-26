@@ -1,0 +1,41 @@
+:imagesdir: images
+
+=  Akbank ATM/Şubelerinin yoğun olduğu konumlarda konum ikonunun görünmeme sorunu
+
+*Test cihazı:* Samsung Galaxy S20Fe Snapdragon 6/128
+
+*Test cihazı sürümü:* Android 13
+
+*Test cihazı ekran çözünürlüğü:* 1080 x 2400
+
+*Test cihazı arayüz sürümü:* One UI 5.1
+
+*Uygulama Sürümü:* 4.38.0
+
+*Sorunun Tekrarlanma Tarih-Saati:* 26.12.2023 - 18:10
+
+**Ön Koşullar:**
+
+. Senaryo login olmadan uygulanmalı.
+. Cihazın konumu Akbank ATM/Şubelerinin yoğun olduğu bir konumda olmalı.
+
+**Aşama:**
+
+- Login öncesi anasayfa
+
+**Senaryo:**
+
+. Uygulama anasayfasında (login öncesi anasayfa) "En Yakın Akbank" butonu tıklanır.
+. Sol alt köşedeki konum butonuna tıklanır.
+. Harita içerisinde konum ikonu kontrol edilir.
+
+**Oluşan Durum:**
+
+- Uygulamanın yüklü olduğu cihaz eğer Akbank ATM/Şubelerinin yoğun olduğu bir konumdaysa cihazın konumunu gösteren konum ikonu ATM/Şube ikonlarının arkasında kalıyor ve kullanıcı bulunduğu konumu göremiyor.
+
+**Beklenen Sonuç:**
+
+. Harita içerisindeki konum ikonu ATM/Şube ikonlarının arkasında kalmamalı, ön planda gösterilmeli.
+. Mümkünse konum ikonunun rengi ATM/Şube ikonlarının renginden farklı bir renk yapılmalı (örn: mavi). 
+
+image::en-yakin-akbank-harita-konum-ikon-gorunmeme-sorunu.png[]
