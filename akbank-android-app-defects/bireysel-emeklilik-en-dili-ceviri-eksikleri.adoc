@@ -1,0 +1,56 @@
+:imagesdir: images
+
+=  Bireysel emeklilik akışı EN dili çeviri eksiklikleri
+
+*Test cihazı:* Samsung Galaxy S20Fe Snapdragon 6/128
+
+*Test cihazı sürümü:* Android 13
+
+*Test cihazı ekran çözünürlüğü:* 1080 x 2400
+
+*Test cihazı arayüz sürümü:* One UI 5.1
+
+*Uygulama Sürümü:* 4.38.0
+
+*Sorunun Tekrarlanma Tarih-Saati:* 27.12.2023 - 20:36
+
+**Ön Koşullar:**
+
+. Uygulamaya giriş yapabilmek adına geçerli giriş bilgileri olmalı (Müşteri/TC kimlik no ve Şifre).
+. Test EN (İngilizce) dilinde yapılmalı.
+
+**Aşama:**
+
+- Investments
+
+**Senaryo:**
+
+. Uygulamanın dili İngilizce ise alttaki 2. ve 3. maddeler atlanarak direkt 4. maddeden devam edilebilir.
+. Login olmadan önce anasayfada kullanıcı profil resmi üzerine tıklanır (resim olması şart değil ilgili alana tıklanması yeterli).
+. Profilim menüsünde bayrak ikonu üzerine tıklanır.
+. Login butonuna tıklanır.
+. "Müşteri veya TC kimlik numaranı gir" ve "Akbank Şifresi" inputları doldurulur, giriş butonuna tıklanır.
+. Telefona sms ile gelen cep şifre şifre ekranında girilir ve giriş butonuna tıklanır.
+. Anasayfada "INVESTMENT & CURRENCY" alanında "ALL INVESTMENTS" kutucuğunda "View Your Investments" butonu tıklanır.
+. "All Investments" sayfasında "BİREYSEL EMEKLİLİK" kutucuğu tıklanır.
+. "Bireysel emeklilik başvuru" sayfasındaki textlerin dili kontrol edilir.
+. "Geleceğin için yatırım yapmaya başla" kutucuğu tıklanır, açılan sayfadaki textlerin dili kontrol edilir, sayfanın en altına scroll yapılır, "Başvur" butonuna tıklanır, "BES birikim hesaplama" sayfasındaki textlerin dili kontrol edilir. 
+. "Çocuğunun geleceği için biriktir" kutucuğu tıklanır, açılan sayfadaki textlerin dili kontrol edilir, sayfanın en altına scroll yapılır, "Başvur" butonuna tıklanır, açılan sayfadaki textlerin dili kontrol edilir.
+
+**Oluşan Durum:**
+
+. "All Investments" sayfasındaki "BİREYSEL EMEKLİLİK" kutucuğundaki "BİREYSEL EMEKLİLİK" texti Türkçe olarak görünüyor. 
+. "Bireysel emeklilik başvuru" sayfasındaki textlerin dili Türkçe olarak görünüyor.
+. "Geleceğin için yatırım yapmaya başla" sayfasındaki textlerin dili Türkçe olarak görünüyor, "Başvur" butonuna tıklayınca açılan "BES birikim hesaplama" sayfasındaki textlerin dili Türkçe olarak görünüyor.
+. "Çocuğunun geleceği için biriktir" sayfasındaki textlerin dili Türkçe olarak görünüyor, "Başvur" butonuna tıklayınca açılan "Katılımcı bilgileri" sayfasındaki textlerin dili Türkçe olarak görünüyor.
+
+**Beklenen Sonuç:**
+
+. "All Investments" sayfasındaki "BİREYSEL EMEKLİLİK" kutucuğundaki "BİREYSEL EMEKLİLİK" texti İngilizce olmalı.
+. "Bireysel emeklilik başvuru" sayfasındaki textlerin dili İngilizce olmalı.
+. "Geleceğin için yatırım yapmaya başla" sayfasındaki textlerin dili İngilizce olmalı, "Başvur" butonuna tıklayınca açılan "BES birikim hesaplama" sayfasındaki textlerin dili İngilizce olmalı.
+. "Çocuğunun geleceği için biriktir" sayfasındaki textlerin dili İngilizce olmalı, "Başvur" butonuna tıklayınca açılan "Katılımcı bilgileri" sayfasındaki textlerin dili İngilizce olmalı.
+
+image::bireysel-emeklilik-en-dili-ceviri-eksikleri-1.png[]
+image::bireysel-emeklilik-en-dili-ceviri-eksikleri-2.png[]
+
