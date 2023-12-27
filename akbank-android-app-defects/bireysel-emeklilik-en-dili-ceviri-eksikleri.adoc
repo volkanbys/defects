@@ -35,6 +35,7 @@
 . "All Investments" sayfasında "BİREYSEL EMEKLİLİK" kutucuğu tıklanır.
 . "Bireysel emeklilik başvuru" sayfasındaki textlerin dili kontrol edilir.
 . "Geleceğin için yatırım yapmaya başla" kutucuğu tıklanır, açılan sayfadaki textlerin dili kontrol edilir, sayfanın en altına scroll yapılır, "Başvur" butonuna tıklanır, "BES birikim hesaplama" sayfasındaki textlerin dili kontrol edilir. 
+. İki kere back butonuna tıklanır.
 . "Çocuğunun geleceği için biriktir" kutucuğu tıklanır, açılan sayfadaki textlerin dili kontrol edilir, sayfanın en altına scroll yapılır, "Başvur" butonuna tıklanır, açılan sayfadaki textlerin dili kontrol edilir.
 
 **Oluşan Durum:**
@@ -42,14 +43,14 @@
 . "All Investments" sayfasındaki "BİREYSEL EMEKLİLİK" kutucuğundaki "BİREYSEL EMEKLİLİK" texti Türkçe olarak görünüyor. 
 . "Bireysel emeklilik başvuru" sayfasındaki textlerin dili Türkçe olarak görünüyor.
 . "Geleceğin için yatırım yapmaya başla" sayfasındaki textlerin dili Türkçe olarak görünüyor, "Başvur" butonuna tıklayınca açılan "BES birikim hesaplama" sayfasındaki textlerin dili Türkçe olarak görünüyor.
-. "Çocuğunun geleceği için biriktir" sayfasındaki textlerin dili Türkçe olarak görünüyor, "Başvur" butonuna tıklayınca açılan "Katılımcı bilgileri" sayfasındaki textlerin dili Türkçe olarak görünüyor.
+. "Çocuğum için BES" sayfasındaki textlerin dili Türkçe olarak görünüyor, "Başvur" butonuna tıklayınca açılan "Katılımcı bilgileri" sayfasındaki textlerin dili Türkçe olarak görünüyor.
 
 **Beklenen Sonuç:**
 
 . "All Investments" sayfasındaki "BİREYSEL EMEKLİLİK" kutucuğundaki "BİREYSEL EMEKLİLİK" texti İngilizce olmalı.
 . "Bireysel emeklilik başvuru" sayfasındaki textlerin dili İngilizce olmalı.
 . "Geleceğin için yatırım yapmaya başla" sayfasındaki textlerin dili İngilizce olmalı, "Başvur" butonuna tıklayınca açılan "BES birikim hesaplama" sayfasındaki textlerin dili İngilizce olmalı.
-. "Çocuğunun geleceği için biriktir" sayfasındaki textlerin dili İngilizce olmalı, "Başvur" butonuna tıklayınca açılan "Katılımcı bilgileri" sayfasındaki textlerin dili İngilizce olmalı.
+. "Çocuğum için BES" sayfasındaki textlerin dili İngilizce olmalı, "Başvur" butonuna tıklayınca açılan "Katılımcı bilgileri" sayfasındaki textlerin dili İngilizce olmalı.
 
 image::bireysel-emeklilik-en-dili-ceviri-eksikleri-1.png[]
 image::bireysel-emeklilik-en-dili-ceviri-eksikleri-2.png[]
