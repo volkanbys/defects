@@ -31,7 +31,7 @@
 
 **Oluşan Durum:**
 
-- Uygulamanın yüklü olduğu cihaz eğer Akbank ATM/Şubelerinin yoğun olduğu bir konumdaysa cihazın konumunu gösteren konum ikonu ATM/Şube ikonlarının arkasında kalıyor, kullanıcı bulunduğu konumu ve haliyle etrafında hangi ATM veya şubelerin olduğunu göremiyor.
+- Uygulamanın yüklü olduğu cihaz eğer Akbank ATM/Şubelerinin yoğun olduğu bir konumdaysa; cihazın konumunu gösteren konum ikonu ATM/Şube ikonlarının arkasında kalıyor, kullanıcı bulunduğu konumu ve haliyle etrafında hangi ATM veya şubelerin olduğunu göremiyor.
 
 **Beklenen Sonuç:**
 

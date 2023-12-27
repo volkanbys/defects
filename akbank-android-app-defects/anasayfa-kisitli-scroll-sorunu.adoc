@@ -1,0 +1,43 @@
+:imagesdir: images
+
+=  Login olunduğu an anasayfada hemen scroll yapılmaya başlanınca sayfanın kısıtlı scroll olma sorunu
+
+*Test cihazı:* Samsung Galaxy S20Fe Snapdragon 6/128
+
+*Test cihazı sürümü:* Android 13
+
+*Test cihazı ekran çözünürlüğü:* 1080 x 2400
+
+*Test cihazı arayüz sürümü:* One UI 5.1
+
+*Uygulama Sürümü:* 4.38.0
+
+*Sorunun Tekrarlanma Tarih-Saati:* 27.12.2023 - 15:22
+
+**Ön Koşullar:**
+
+- Uygulamaya giriş yapabilmek adına geçerli giriş bilgileri olmalı (Müşteri/TC kimlik no ve Şifre).
+
+**Aşama:**
+
+- Anasayfa
+
+**Senaryo:**
+
+. Uygulamaya girilir, "Müşteri veya TC kimlik numaranı gir" ve "Akbank Şifresi" inputları doldurulur, giriş butonuna tıklanır.
+. Telefona sms ile gelen cep şifre şifre ekranında girilir ve giriş butonuna tıklanır.
+. Anasayfada sayfa yüklendiği an sayfanın aşağısına doğru scroll yapılır.
+. Footer alanında "Transfer ve ödeme" butonuna tıklanır.
+. "Transfer ve ödeme" sayfası açıldıktan sonra footer alanında "Anasayfa" butonuna tıklanır.
+. Sayfanın aşağısına doğru scroll yapılır.
+
+**Oluşan Durum:**
+
+. Login sonrası anasayfada hemen scroll yapıldığında sadece "DÖVİZ HESAPLAYICI" başlığına kadar scroll yapılabiliyor, daha aşağıya scroll yapılamıyor.
+. Transfer ve ödeme sayfasına ilerleyip ardından tekrar anasayfaya dönülünce sayfanın sonuna kadar scroll yapılabiliyor.
+
+**Beklenen Sonuç:**
+
+- Login sonrası anasayfada hemen scroll yapıldığında kısıtlı bir alana kadar scroll yapılmamalı, sayfanın sonuna kadar scroll yapılabilmeli.
+
+image::anasayfa-kisitli-scroll-sorunu.png[]
