@@ -1,0 +1,39 @@
+:imagesdir: images
+
+=  Anasayfada back butonuna basıldığı an kullanıcının log out olma sorunu
+
+*Test cihazı:* Samsung Galaxy S20Fe Snapdragon 6/128
+
+*Test cihazı sürümü:* Android 13
+
+*Test cihazı ekran çözünürlüğü:* 1080 x 2400
+
+*Test cihazı arayüz sürümü:* One UI 5.1
+
+*Uygulama Sürümü:* 4.38.0
+
+*Sorunun Tekrarlanma Tarih-Saati:* 27.12.2023 - 16:40
+
+**Ön Koşullar:**
+
+- Uygulamaya giriş yapabilmek adına geçerli giriş bilgileri olmalı (Müşteri/TC kimlik no ve Şifre).
+
+**Aşama:**
+
+- Anasayfa
+
+**Senaryo:**
+
+. Uygulamaya girilir, "Müşteri veya TC kimlik numaranı gir" ve "Akbank Şifresi" inputları doldurulur, giriş butonuna tıklanır.
+. Telefona sms ile gelen cep şifre şifre ekranında girilir ve giriş butonuna tıklanır.
+. Anasayfada back butonuna basılır.
+
+**Oluşan Durum:**
+
+- Back butonuna basınca kullanıcı hemen log out oluyor.
+
+**Beklenen Sonuç:**
+
+- Back butonuna basınca kullanıcı log out olmamalı. "Akbank Mobil'den çıkmak istediğinize emin misiniz?" şeklinde bir uyarı popup'ı gösterilerek kullanıcıdan onay alınmalı (ekran görüntüsünde QNB Finansbank uygulamasından örnek mevcut).
+
+image::anasayfada-back-butonuna-basildigi-an-log-out-olma-sorunu.png[]
