@@ -1,0 +1,40 @@
+:imagesdir: images
+
+=  En yakın Akbank ATM konum haritasında zoom in zoom out yapılamama sorunu
+
+*Test cihazı:* Samsung Galaxy S20Fe Snapdragon 6/128
+
+*Test cihazı sürümü:* Android 13
+
+*Test cihazı ekran çözünürlüğü:* 1080 x 2400
+
+*Test cihazı arayüz sürümü:* One UI 5.1
+
+*Uygulama Sürümü:* 4.38.0
+
+*Sorunun Tekrarlanma Tarih-Saati:* 28.12.2023 - 20:05
+
+**Ön Koşullar:**
+
+- Senaryo login olmadan uygulanmalı.
+
+**Aşama:** 
+
+- Login öncesi anasayfa
+
+**Senaryo:**
+
+. Uygulama anasayfasında (login öncesi anasayfa) "En Yakın Akbank" butonu tıklanır.
+. "En Yakın Akbank" sayfasında sağ üst köşedeki liste görünümü (üç çizgi) butonuna tıklanır. 
+. Listeden herhangi bir ATM tıklanır.
+. Haritada iki parmakla zoom in zoom out yapılır.
+
+**Oluşan Durum:**
+
+- ATM konum haritasında zoom in zoom out yapılamıyor.
+
+**Beklenen Sonuç:**
+
+- ATM konum haritasında zoom in zoom out yapılabilmeli.
+
+image::en-yakin-akbank-haritasi-cift-parmak-zoom-calismama-sorunu.jpg[]
