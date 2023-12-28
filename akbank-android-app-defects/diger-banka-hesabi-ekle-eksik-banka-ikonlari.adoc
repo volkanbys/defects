@@ -1,0 +1,45 @@
+:imagesdir: images
+
+=  Diğer banka hesabı ekleme menüsünde "Anadolubank" ve "Odeabank" seçeneklerinin ikonlarının eksik olma sorunu
+
+*Test cihazı:* Samsung Galaxy S20Fe Snapdragon 6/128
+
+*Test cihazı sürümü:* Android 13
+
+*Test cihazı ekran çözünürlüğü:* 1080 x 2400
+
+*Test cihazı arayüz sürümü:* One UI 5.1
+
+*Uygulama Sürümü:* 4.38.0
+
+*Sorunun Tekrarlanma Tarih-Saati:* 28.12.2023 - 14:38
+
+**Ön Koşullar:**
+
+- Uygulamaya giriş yapabilmek adına geçerli giriş bilgileri olmalı (Müşteri/TC kimlik no ve Şifre).
+
+**Aşama:**
+
+- Hesaplar ve kartlar
+
+**Senaryo:**
+
+. Uygulamaya girilir, "Müşteri veya TC kimlik numaranı gir" ve "Akbank Şifresi" inputları doldurulur, giriş butonuna tıklanır.
+. Telefona sms ile gelen cep şifre şifre ekranında girilir ve giriş butonuna tıklanır.
+. Anasayfada "HESAPLAR VE KARTLAR" başlığında "TÜMÜ" seçeneği tıklanır.
+. "Hesaplar ve kartlar" sayfasında "Hesaplarım" seçeneği tıklanır.
+. "Hesaplarım" seçeneği altındaki "Yeni bir hesap aç veya diğer banka hesabı ekle" seçeneği tıklanır.
+. "Diğer banka hesabı ekle" seçeneği tıklanır.
+. "Hesap Ekle" sayfasında "Anadolubank" ve "Odeabank" seçeneklerinin ikonları kontrol edilir.
+
+**Oluşan Durum:**
+
+- "Anadolubank" ve "Odeabank" seçeneklerinin ikonları görünmüyor.
+
+**Beklenen Sonuç:**
+
+- "Anadolubank" ve "Odeabank" seçeneklerinin ikonları eklenmeli.
+
+image::diger-banka-hesabi-ekle-eksik-banka-ikonlari.jpeg[]
+
+
