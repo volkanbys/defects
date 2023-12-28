@@ -37,4 +37,4 @@
 
 - ATM konum haritasında zoom in zoom out yapılabilmeli.
 
-image::en-yakin-akbank-haritasi-cift-parmak-zoom-calismama-sorunu.jpg[]
+image::en-yakin-akbank-haritasi-zoom-in-zoom-out-calismama-sorunu.jpg[]
