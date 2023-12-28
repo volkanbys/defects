@@ -16,7 +16,8 @@
 
 **Ön Koşullar:**
 
-- Uygulamaya giriş yapabilmek adına geçerli giriş bilgileri olmalı (Müşteri/TC kimlik no ve Şifre).
+. Uygulamaya temiz bir giriş sağlayabilmek adına uygulamada kayıtlı kullanıcı aktivasyonu olmamalı.
+. Uygulamaya giriş yapabilmek adına geçerli giriş bilgileri olmalı (Müşteri/TC kimlik no ve Şifre).
 
 **Aşama:**
 
@@ -24,8 +25,10 @@
 
 **Senaryo:**
 
-. Uygulamaya girilir, "Müşteri veya TC kimlik numaranı gir" ve "Akbank Şifresi" inputları doldurulur, giriş butonuna tıklanır.
-. Telefona sms ile gelen cep şifre şifre ekranında girilir ve giriş butonuna tıklanır.
+. Uygulamaya girilir, bireysel butonuna tıklanır. 
+. "Müşteri veya TC kimlik no ile giriş" butonuna tıklanır. 
+. "Müşteri veya TC kimlik numaranı gir" ve "Akbank Şifresi" inputları doldurulur, giriş butonuna tıklanır (bu iki input doldurulunca giriş butonu otomatik olarak aksiyon alırsa butona tıklamaya gerek kalmaz).
+. Telefona sms ile gelen cep şifre şifre ekranında girilir, giriş butonuna tıklanır (giriş butonu otomatik olarak aksiyon alırsa butona tıklamaya gerek kalmaz).
 . Anasayfada "HESAPLAR VE KARTLAR" başlığında "TÜMÜ" seçeneği tıklanır.
 . "Hesaplar ve kartlar" sayfasında "Hesaplarım" seçeneği tıklanır.
 . "Hesaplarım" seçeneği altındaki "Yeni bir hesap aç veya diğer banka hesabı ekle" seçeneği tıklanır.

@@ -16,6 +16,7 @@
 
 **Ön Koşullar:**
 
+. Uygulamaya temiz bir giriş sağlayabilmek adına uygulamada kayıtlı kullanıcı aktivasyonu olmamalı.
 . Uygulamaya giriş yapabilmek adına geçerli giriş bilgileri olmalı (Müşteri/TC kimlik no ve Şifre)
 . Kullanıcının henüz katılmadığı ve katılım sağlayabileceği en az 1 kampanya bulunmalı.
 
@@ -25,8 +26,10 @@
 
 **Senaryo:**
 
-. Uygulamaya girilir, "Müşteri veya TC kimlik numaranı gir" ve "Akbank Şifresi" inputları doldurulur, giriş butonuna tıklanır.
-. Telefona sms ile gelen cep şifre şifre ekranında girilir ve giriş butonuna tıklanır.
+. Uygulamaya girilir, bireysel butonuna tıklanır. 
+. "Müşteri veya TC kimlik no ile giriş" butonuna tıklanır. 
+. "Müşteri veya TC kimlik numaranı gir" ve "Akbank Şifresi" inputları doldurulur, giriş butonuna tıklanır (bu iki input doldurulunca giriş butonu otomatik olarak aksiyon alırsa butona tıklamaya gerek kalmaz).
+. Telefona sms ile gelen cep şifre şifre ekranında girilir, giriş butonuna tıklanır (giriş butonu otomatik olarak aksiyon alırsa butona tıklamaya gerek kalmaz).
 . Anasayfada "İşlemler" alanına scroll yapılır.
 . "Kampanyalar" butonu tıklanır.
 . "Kampanyalar" alanında "Tüm kampanyalar" tıklanır.

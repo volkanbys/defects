@@ -16,6 +16,7 @@
 
 **Ön Koşullar:**
 
+. Uygulamaya temiz bir giriş sağlayabilmek adına uygulamada kayıtlı kullanıcı aktivasyonu olmamalı.
 . Uygulamaya giriş yapabilmek adına geçerli giriş bilgileri olmalı (Müşteri/TC kimlik no ve Şifre).
 . Test EN (İngilizce) dilinde yapılmalı.
 . Kullanıcının aktif en az 1 kredi kartı olmalı.
@@ -26,12 +27,12 @@
 
 **Senaryo:**
 
-. Uygulamanın dili İngilizce ise alttaki 2. ve 3. maddeler atlanarak direkt 4. maddeden devam edilebilir.
-. Login olmadan önce anasayfada kullanıcı profil resmi üzerine tıklanır (resim eklenmiş olmayabilir ilgili alana tıklanması yeterli).
-. Profilim menüsünde bayrak ikonu üzerine tıklanır.
-. Login butonuna tıklanır.
-. "Müşteri veya TC kimlik numaranı gir" ve "Akbank Şifresi" inputları doldurulur, giriş butonuna tıklanır.
-. Telefona sms ile gelen cep şifre şifre ekranında girilir ve giriş butonuna tıklanır.
+. Uygulamanın dili İngilizce ise alttaki 2. madde atlanarak direkt 3. maddeden devam edilebilir.
+. Login olmadan önce anasayfada bayrak ikonu üzerine tıklanır.
+. "Consumer" butonu tıklanır.
+. "Login with customer/TR ID no" butonuna tıklanır. 
+. "CUSTOMER/TR ID NO" ve "AKBANK PASSWORD" inputları doldurulur, login butonuna tıklanır (bu iki input doldurulunca login butonu otomatik olarak aksiyon alırsa butona tıklamaya gerek kalmaz).
+. Telefona sms ile gelen cep şifre "MOBILE PASS" ekranında girilir, login butonuna tıklanır (login butonu otomatik olarak aksiyon alırsa butona tıklamaya gerek kalmaz).
 . Anasayfada kredi kartı kutucuğunun içerisinde sağ üst köşedeki üç nokta (...) tıklanır.
 . Kredi kartı menüsünde "Settings" tıklanır.
 . "Card settings" menüsünde "Masterpass enrollment" butonu tıklanır.

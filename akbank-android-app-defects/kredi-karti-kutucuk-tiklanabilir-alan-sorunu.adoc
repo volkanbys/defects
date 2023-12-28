@@ -16,6 +16,7 @@
 
 **Ön Koşullar:**
 
+. Uygulamaya temiz bir giriş sağlayabilmek adına uygulamada kayıtlı kullanıcı aktivasyonu olmamalı.
 . Uygulamaya giriş yapabilmek adına geçerli giriş bilgileri olmalı (Müşteri/TC kimlik no ve Şifre)
 . Kullanıcının aktif en az 1 kredi kartı olmalı.
 
@@ -25,8 +26,10 @@
 
 **Senaryo:**
 
-. Uygulamaya girilir, "Müşteri veya TC kimlik numaranı gir" ve "Akbank Şifresi" inputları doldurulur, giriş butonuna tıklanır.
-. Telefona sms ile gelen cep şifre şifre ekranında girilir ve giriş butonuna tıklanır.
+. Uygulamaya girilir, bireysel butonuna tıklanır. 
+. "Müşteri veya TC kimlik no ile giriş" butonuna tıklanır. 
+. "Müşteri veya TC kimlik numaranı gir" ve "Akbank Şifresi" inputları doldurulur, giriş butonuna tıklanır (bu iki input doldurulunca giriş butonu otomatik olarak aksiyon alırsa butona tıklamaya gerek kalmaz).
+. Telefona sms ile gelen cep şifre şifre ekranında girilir, giriş butonuna tıklanır (giriş butonu otomatik olarak aksiyon alırsa butona tıklamaya gerek kalmaz).
 . "Hesaplar ve kartlar" alanında kredi kartına ait kutucuğun içerisinde kredi kartı isminin (Örn: Axess Platin MC D) bulunduğu satır haricindeki bir alana tıklanır (2 nolu görsel).
 . Tekrar "Hesaplar ve kartlar" alanında kredi kartına ait kutucuğun içerisinde kredi kartı isminin (Örn: Axess Platin MC D) bulunduğu satıra tıklanır (1 nolu görsel).
 . Kredi kartı sayfasında geri ok (<-) butonuna tıklanır (3 nolu görsel).
@@ -34,7 +37,7 @@
 
 **Oluşan Durum:**
 
-. Uygulamaya girdikten sonra "Hesaplar ve kartlar" alanında kredi kartına ait kutucuğun içerisinde kredi kartı isminin (Örn: Axess Platin MC D) bulunduğu satır haricindeki bir alana (2 nolu görseldeki alan) tıklandığında kredi kartı detay ekranına yönlendirme olmuyor, ilgili alan aksiyon almıyor.
+. Uygulamada login olduktan sonra "Hesaplar ve kartlar" alanında kredi kartına ait kutucuğun içerisinde kredi kartı isminin (Örn: Axess Platin MC D) bulunduğu satır haricindeki bir alana (2 nolu görseldeki alan) tıklandığında kredi kartı detay ekranına yönlendirme olmuyor, ilgili alan aksiyon almıyor.
 . Kredi kartı isminin bulunduğu satırdaki alana (1 nolu görseldeki alan) tıklandığında aksiyon alıyor, kredi kartı sayfasına yönlendiriyor (bu durum normal, sorun yok).
 . Kredi kartı sayfasına geri dönme sonrası anasayfada tekrar "Hesaplar ve kartlar" alanında kredi kartına ait kutucuğun içerisinde kredi kartı isminin (Örn: Axess Platin MC D) bulunduğu satır haricindeki bir alana tıklandığında aksiyon alıyor (bu durum normal, sorun yok).
 
