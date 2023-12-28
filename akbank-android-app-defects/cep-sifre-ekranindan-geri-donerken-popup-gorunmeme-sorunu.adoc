@@ -1,0 +1,41 @@
+:imagesdir: images
+
+=  Cep şifre girme ekranında geri butonuna basınca kullanıcıdan onay almadan işlemin iptal olma sorunu
+
+*Test cihazı:* Samsung Galaxy S20Fe Snapdragon 6/128
+
+*Test cihazı sürümü:* Android 13
+
+*Test cihazı ekran çözünürlüğü:* 1080 x 2400
+
+*Test cihazı arayüz sürümü:* One UI 5.1
+
+*Uygulama Sürümü:* 4.38.0
+
+*Sorunun Tekrarlanma Tarih-Saati:* 28.12.2023 - 20:41
+
+**Ön Koşullar:**
+
+. Uygulamada kayıtlı kullanıcı aktivasyonu olmamalı.
+. Cep şifre ekranına ilerleyebilmek adına geçerli giriş bilgileri olmalı (Müşteri/TC kimlik no ve Şifre).
+
+**Aşama:**
+
+- Anasayfa
+
+**Senaryo:**
+
+. Uygulamaya girilir, bireysel butonuna tıklanır. 
+. "Müşteri veya TC kimlik no ile giriş" butonuna tıklanır. 
+. "Müşteri veya TC kimlik numaranı gir" ve "Akbank Şifresi" inputları doldurulur, giriş butonuna tıklanır (bu iki input doldurulunca giriş butonu otomatik olarak aksiyon alırsa butona tıklamaya gerek kalmaz).
+. "XX numaralı CepŞifre'ni gir" ekranında back (<-) butonuna tıklanır.
+
+**Oluşan Durum:**
+
+- "XX numaralı CepŞifre'ni gir" ekranında back (<-) butonuna tıklanınca herhangi bir uyarı vermeden önceki sayfaya dönüyor ve ilgili cep şifre iptal oluyor. Kullanıcının senaryo adımlarındaki 2. ve 3. maddeleri tekrar uygulaması gerekiyor.
+
+**Beklenen Sonuç:**
+
+- "XX numaralı CepŞifre'ni gir" ekranında back (<-) butonuna tıklanınca kullanıcıya "Geri dönerseniz Müşteri/TC kimlik numaranızı ve şifrenizi tekrar girerek tekrar cep şifre almanız gerekmektedir. Onaylıyor musunuz?" şeklinde (veya benzer) bir popup gösterilmeli.
+
+image::cep-sifre-ekranindan-geri-donerken-popup-gorunmeme-sorunu.png[]
