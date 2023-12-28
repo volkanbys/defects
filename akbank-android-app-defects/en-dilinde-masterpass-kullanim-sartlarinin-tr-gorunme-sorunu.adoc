@@ -1,0 +1,49 @@
+:imagesdir: images
+
+=  Uygulama dili İngilizceyken "Masterpass Kullanım Şartları" doküman içeriğinin Türkçe görünme sorunu
+
+*Test cihazı:* Samsung Galaxy S20Fe Snapdragon 6/128
+
+*Test cihazı sürümü:* Android 13
+
+*Test cihazı ekran çözünürlüğü:* 1080 x 2400
+
+*Test cihazı arayüz sürümü:* One UI 5.1
+
+*Uygulama Sürümü:* 4.38.0
+
+*Sorunun Tekrarlanma Tarih-Saati:* 27.12.2023 - 17:18
+
+**Ön Koşullar:**
+
+. Uygulamaya giriş yapabilmek adına geçerli giriş bilgileri olmalı (Müşteri/TC kimlik no ve Şifre).
+. Test EN (İngilizce) dilinde yapılmalı.
+. Kullanıcının aktif en az 1 kredi kartı olmalı.
+
+**Aşama:**
+
+- Card settings
+
+**Senaryo:**
+
+. Uygulamanın dili İngilizce ise alttaki 2. ve 3. maddeler atlanarak direkt 4. maddeden devam edilebilir.
+. Login olmadan önce anasayfada kullanıcı profil resmi üzerine tıklanır (resim eklenmiş olmayabilir ilgili alana tıklanması yeterli).
+. Profilim menüsünde bayrak ikonu üzerine tıklanır.
+. Login butonuna tıklanır.
+. "Müşteri veya TC kimlik numaranı gir" ve "Akbank Şifresi" inputları doldurulur, giriş butonuna tıklanır.
+. Telefona sms ile gelen cep şifre şifre ekranında girilir ve giriş butonuna tıklanır.
+. Anasayfada kredi kartı kutucuğunun içerisinde sağ üst köşedeki üç nokta (...) tıklanır.
+. Kredi kartı menüsünde "Settings" tıklanır.
+. "Card settings" menüsünde "Masterpass enrollment" butonu tıklanır.
+. "Masterpass register" doküman içeriğinin dili kontrol edilir.
+
+**Oluşan Durum:**
+
+- Uygulama dili EN (İngilizce) seçili olduğu halde "Masterpass register" doküman içeriğinin dili TR (Türkçe) olarak görünüyor.
+
+**Beklenen Sonuç:**
+
+- Uygulama dili İngilizce olduğu için "Masterpass register" doküman içeriğinin dili de İngilizce olmalı. 
+
+image::en-dilinde-masterpass-kullanim-sartlarinin-tr-gorunme-sorunu.png[]
+

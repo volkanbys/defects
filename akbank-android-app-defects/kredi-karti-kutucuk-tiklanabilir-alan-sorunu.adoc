@@ -17,7 +17,7 @@
 **Ön Koşullar:**
 
 . Uygulamaya giriş yapabilmek adına geçerli giriş bilgileri olmalı (Müşteri/TC kimlik no ve Şifre)
-. Kullanıcının en az 1 kredi kartı olmalı.
+. Kullanıcının aktif en az 1 kredi kartı olmalı.
 
 **Aşama:**
 

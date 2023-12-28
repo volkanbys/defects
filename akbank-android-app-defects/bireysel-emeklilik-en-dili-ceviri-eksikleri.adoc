@@ -26,7 +26,7 @@
 **Senaryo:**
 
 . Uygulamanın dili İngilizce ise alttaki 2. ve 3. maddeler atlanarak direkt 4. maddeden devam edilebilir.
-. Login olmadan önce anasayfada kullanıcı profil resmi üzerine tıklanır (resim olması şart değil ilgili alana tıklanması yeterli).
+. Login olmadan önce anasayfada kullanıcı profil resmi üzerine tıklanır (resim eklenmiş olmayabilir ilgili alana tıklanması yeterli).
 . Profilim menüsünde bayrak ikonu üzerine tıklanır.
 . Login butonuna tıklanır.
 . "Müşteri veya TC kimlik numaranı gir" ve "Akbank Şifresi" inputları doldurulur, giriş butonuna tıklanır.
