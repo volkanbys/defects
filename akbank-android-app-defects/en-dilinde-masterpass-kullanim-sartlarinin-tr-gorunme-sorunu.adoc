@@ -12,7 +12,7 @@
 
 *Uygulama Sürümü:* 4.38.0
 
-*Sorunun Tekrarlanma Tarih-Saati:* 28.12.2023 - 17:18
+*Sorunun Tekrarlanma Tarih-Saati:* 28.12.2023 - 19:35
 
 **Ön Koşullar:**
 

@@ -12,12 +12,12 @@
 
 *Uygulama Sürümü:* 4.38.0
 
-*Sorunun Tekrarlanma Tarih-Saati:* 26.12.2023 - 16:52
+*Sorunun Tekrarlanma Tarih-Saati:* 28.12.2023 - 19:50
 
 **Ön Koşullar:**
 
 . Uygulamaya temiz bir giriş sağlayabilmek adına uygulamada kayıtlı kullanıcı aktivasyonu olmamalı.
-. Uygulamaya giriş yapabilmek adına geçerli giriş bilgileri olmalı (Müşteri/TC kimlik no ve Şifre)
+. Uygulamaya giriş yapabilmek adına geçerli giriş bilgileri olmalı (Müşteri/TC kimlik no ve Şifre).
 . Kullanıcının aktif en az 1 kredi kartı olmalı.
 
 **Aşama:**
