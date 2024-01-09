@@ -10,7 +10,7 @@
 
 *Test cihazı arayüz sürümü:* One UI 5.1
 
-*Uygulama Sürümü:* 4.38.0
+*Uygulama Sürümü:* 4.38.0 (4.39.0 sürümünde de sorun devam ediyor)
 
 *Sorunun Tekrarlanma Tarih-Saati:* 28.12.2023 - 19:18
 
