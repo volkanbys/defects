@@ -1,0 +1,39 @@
+:imagesdir: images
+
+=  Anasayfada kampanya banner'ı üzerine tıklayınca ilgili kampanya detayları sayfasının açılmama sorunu
+
+*Test cihazı:* Samsung Galaxy S20Fe Snapdragon 6/128
+
+*Test cihazı sürümü:* Android 13
+
+*Test cihazı ekran çözünürlüğü:* 1080 x 2400
+
+*Test cihazı arayüz sürümü:* One UI 5.1
+
+*Uygulama Sürümü:* 5.14.0
+
+*Sorunun Tekrarlanma Tarih-Saati:* 12.01.2024 - 22:30
+
+**Ön Koşullar:**
+
+- Uygulamaya giriş yapabilmek adına geçerli giriş bilgileri olmalı (Telefon numarası).
+
+**Aşama:** 
+
+- Anasayfa
+
+**Senaryo:**
+
+. Uygulamaya girilir, "Telefon Numaranı Gir" ekranında telefon numarası girilir, "İleri" butonuna tıklanır.
+. "Telefonunu Doğrula" ekranına sms ile gelen kod girilir, "İleri" butonuna tıklanır.
+. Anasayfada sayfanın üst tarafındaki kayan kampanya bannerlarından herhangi birine tıklanır.
+
+**Oluşan Durum:**
+
+- Bannera tıklayınca herhangi bir aksiyon almıyor.
+
+**Beklenen Sonuç:**
+
+- Bannera tıklayınca ilgili kampanya detay sayfasına yönlendirmeli.
+
+image::kampanya-detaylari-goruntulenememe-sorunu.jpeg[]
