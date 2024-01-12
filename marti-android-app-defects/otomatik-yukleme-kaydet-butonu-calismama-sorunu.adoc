@@ -1,0 +1,44 @@
+:imagesdir: images
+
+=  Cüzdana otomatik bakiye yükleme sayfasında kaydet butonunun çalışmama sorunu
+
+*Test cihazı:* Samsung Galaxy S20Fe Snapdragon 6/128
+
+*Test cihazı sürümü:* Android 13
+
+*Test cihazı ekran çözünürlüğü:* 1080 x 2400
+
+*Test cihazı arayüz sürümü:* One UI 5.1
+
+*Uygulama Sürümü:* 5.14.0
+
+*Sorunun Tekrarlanma Tarih-Saati:* 12.01.2024 - 22:26
+
+**Ön Koşullar:**
+
+- Uygulamaya giriş yapabilmek adına geçerli giriş bilgileri olmalı (Telefon numarası).
+
+**Aşama:** 
+
+- 
+
+**Senaryo:**
+
+. Uygulamaya girilir, "Telefon Numaranı Gir" ekranında telefon numarası girilir, "İleri" butonuna tıklanır.
+. "Telefonunu Doğrula" ekranına sms ile gelen kod girilir, "İleri" butonuna tıklanır.
+. Anasayfada "Martı - Sürüşe Başla" seçeneği seçilir.
+. "SÜRÜŞE BAŞLA" ekranında hamburger menü tıklanır.
+. "Martı Cüzdan Bakiyesi" kutucuğunda "Detayı Gör" butonu tıklanır.
+. "CÜZDAN BAKİYEM" alanında "Otomatik Yükleme" tıklanır.
+. "Otomatik Yükleme" sayfasında "Otomatik Yükleme" butonu seçili ise seçili olmayan, seçili değilse seçili olan duruma getirilir.
+. "Kaydet" butonuna tıklanır.
+
+**Oluşan Durum:**
+
+- "Otomatik Yükleme" sayfasında "Otomatik Yükleme" butonu seçili veya seçili olmayan duruma getirildikten sonra "Kaydet" butonuna tıklandığında buton aksiyon almıyor.
+
+**Beklenen Sonuç:**
+
+- "Kaydet" butonu aksiyon almalı. 
+
+image::otomatik-yukleme-kaydet-butonu-calismama-sorunu.jpeg[]
