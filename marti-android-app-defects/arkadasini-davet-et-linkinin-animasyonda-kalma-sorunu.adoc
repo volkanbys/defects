@@ -1,0 +1,44 @@
+:imagesdir: images
+
+=  Arkadaşını davet et linkinin çalışmama (animasyonda kalma) sorunu
+
+*Test cihazı:* Samsung Galaxy S20Fe Snapdragon 6/128
+
+*Test cihazı sürümü:* Android 13
+
+*Test cihazı ekran çözünürlüğü:* 1080 x 2400
+
+*Test cihazı arayüz sürümü:* One UI 5.1
+
+*Uygulama Sürümü:* 5.14.0
+
+*Sorunun Tekrarlanma Tarih-Saati:* 13.01.2024 - 15:40
+
+**Ön Koşullar:**
+
+- Uygulamaya giriş yapabilmek adına geçerli giriş bilgisi olmalı (Telefon numarası).
+
+**Aşama:** 
+
+- Kampanyalar
+
+**Senaryo:**
+
+. Uygulamaya girilir, "Telefon Numaranı Gir" ekranında telefon numarası girilir, "İleri" butonuna tıklanır.
+. "Telefonunu Doğrula" ekranına sms ile gelen kod girilir, "İleri" butonuna tıklanır.
+. Anasayfada "Martı - Sürüşe Başla" seçeneği seçilir.
+. "SÜRÜŞE BAŞLA" ekranında hamburger menü tıklanır.
+. "Kampanyalar" tıklanır.
+. "Arkadaşını Davet Et" kutucuğunda "Davet Et" butonu tıklanır.
+. "Arkadaşını Davet Et" sayfasında "Arkadaşını Davet Et" butonu tıklanır.
+. "Arkadaşını Davet Et" butonuna tıklayınca oluşan link kopyalanıp herhangi bir web tarayıcıda açılır. (Örnek link: https://www.martitechnology.com/voucher/index.html?code=JHR8X0)
+
+**Oluşan Durum:**
+
+- Linke tıklayınca açılan sayfada uzun süre animasyon dönüyor, sayfa yüklenmiyor.
+
+**Beklenen Sonuç:**
+
+- Linke tıklayınca açılan sayfada eğer animasyon dönmesi gerekiyorsa bu süre olabilecek en düşük seviyeye indirilmeli, sayfa yüklenmeli.
+
+image::arkadasini-davet-et-linkinin-animasyonda-kalma-sorunu.png[]
