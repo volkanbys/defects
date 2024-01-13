@@ -16,7 +16,7 @@
 
 **Ön Koşullar:**
 
-- Uygulamaya giriş yapabilmek adına geçerli giriş bilgileri olmalı (Telefon numarası).
+- Uygulamada login olabilmek adına geçerli giriş bilgileri olmalı (Telefon numarası).
 
 **Aşama:** 
 
