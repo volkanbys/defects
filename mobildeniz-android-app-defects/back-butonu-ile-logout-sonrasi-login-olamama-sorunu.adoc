@@ -1,0 +1,46 @@
+:imagesdir: images
+
+= Back butonu ile uygulamada log out işlemi sonrası tekrar login olamama sorunu
+
+*Test cihazı:* Samsung Galaxy S20Fe Snapdragon 6/128
+
+*Test cihazı sürümü:* Android 13
+
+*Test cihazı ekran çözünürlüğü:* 1080 x 2400
+
+*Test cihazı arayüz sürümü:* One UI 5.1
+
+*Uygulama Sürümü:* 2.38.4
+
+*Sorunun Tekrarlanma Tarih-Saati:* 23.01.2024 - 17:02
+
+**Ön Koşullar:**
+
+- Uygulamaya giriş yapabilmek adına geçerli giriş bilgileri olmalı (Müşteri/TC kimlik no ve Parola).
+
+**Aşama:**
+
+- Anasayfa (Bireysel)
+
+**Senaryo:**
+
+. Uygulamada kullanıcı aktivasyonu varsa aktivasyon silinir (Android uygulama menüsünden Mobildeniz uygulama verileri silinebilir veya uygulama silinip tekrar yüklenebilir).
+. Login öncesi anasayfada "GİRİŞ YAP" butonuna tıklanır.
+. "Kullanıcı Adı / TCKN" ve "Parola" girilir.
+. "Devam" butonuna tıklanır (buton otomatik olarak seçilirse tıklamaya gerek kalmaz).
+. Sms ile gelen şifre sms şifresi ekranında girilir ve "Devam" butonuna tıklanır (buton otomatik olarak seçilirse tıklamaya gerek kalmaz).
+. Sms şifresini girdikten sonra herhangi bir tanıtım popup'ı açılırsa "Daha sonra hatırlat" seçilir.
+. Anasayfada back butonuna tıklanır.
+. "Çıkış yapmak istediğinize emin misiniz?" popup'ında "Çıkış Yap" butonu tıklanır.
+. Tekrar "GİRİŞ YAP" butonuna tıklanır.
+. "Parola" girilir ve "DEVAM" butonuna tıklanır.
+
+**Oluşan Durum:**
+
+- Uygulamada login olduktan sonra çıkış yapıp ardından tekrar giriş yapılmak istendiğinde "DEVAM" butonu aksiyon almıyor ve bu nedenle tekrar giriş yapılamıyor.
+
+**Beklenen Sonuç:**
+
+- Giriş işlemi sonrası çıkış yapıp ardından tekrar giriş yapılmak istendiğinde "DEVAM" butonu aksiyon almalı ve giriş işlemi yapılabilmeli.
+
+image::back-butonu-ile-logout-sonrasi-login-olamama-sorunu.png[]
