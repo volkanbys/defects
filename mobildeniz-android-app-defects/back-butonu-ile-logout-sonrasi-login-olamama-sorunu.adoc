@@ -16,7 +16,7 @@
 
 **Ön Koşullar:**
 
-- Uygulamaya giriş yapabilmek adına geçerli giriş bilgileri olmalı (Kullanıcı Adı / TCKN ve ve Parola).
+- Uygulamaya giriş yapabilmek adına geçerli giriş bilgileri olmalı (Kullanıcı Adı / TCKN ve Parola).
 
 **Aşama:**
 
