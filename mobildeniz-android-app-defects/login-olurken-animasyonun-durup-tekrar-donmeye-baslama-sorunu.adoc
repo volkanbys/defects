@@ -1,0 +1,40 @@
+:imagesdir: images
+
+= Login işlemi sırasında animasyonun durup yeniden dönmeye başlama sorunu
+
+*Test cihazı:* Samsung Galaxy S20Fe Snapdragon 6/128
+
+*Test cihazı sürümü:* Android 13
+
+*Test cihazı ekran çözünürlüğü:* 1080 x 2400
+
+*Test cihazı arayüz sürümü:* One UI 5.1
+
+*Uygulama Sürümü:* 2.38.4
+
+*Sorunun Tekrarlanma Tarih-Saati:* 23.01.2024 - 17:50
+
+**Ön Koşullar:**
+
+- Uygulamada önceden yapılmış kullanıcı aktivasyonu olmalı
+
+**Aşama:**
+
+- Login öncesi anasayfa (Bireysel)
+
+**Senaryo:**
+
+. Anasayfada "BİREYSEL" seçeneği tıklanır.
+. "GİRİŞ YAP" butonuna tıklanır.
+. "Parola" girilir.
+. "DEVAM" butonuna tıklanır (buton otomatik olarak seçilirse tıklamaya gerek kalmaz).
+
+**Oluşan Durum:**
+
+- "DEVAM" butonuna tıkladıktan sonra animasyon dönmeye başlayınca anlık bir kesintiye uğrayıp tekrar dönmeye başlıyor.
+
+**Beklenen Sonuç:**
+
+- Animasyon kesintiye uğramadan dönmeli.
+
+image::login-olurken-animasyonun-durup-tekrar-donmeye-baslama-sorunu.png[]
