@@ -1,0 +1,40 @@
+:imagesdir: images
+
+=  Cihaz internete bağlı olmadığında kullanıcı uygulamaya girince ekranın gölgeli kalıp info popup'ı görünmeme sorunu
+
+*Test cihazı:* Samsung Galaxy S20Fe Snapdragon 6/128
+
+*Test cihazı sürümü:* Android 13
+
+*Test cihazı ekran çözünürlüğü:* 1080 x 2400
+
+*Test cihazı arayüz sürümü:* One UI 5.1
+
+*Uygulama Sürümü:* 3.1.22
+
+*Sorunun Tekrarlanma Tarih-Saati:* 14.02.2024 - 12:20
+
+**Ön Koşullar:**
+
+. 
+
+**Aşama:**
+
+- Anasayfa
+
+**Senaryo:**
+
+. Cihazın wifi veya mobil verisi aktif durumdaysa kapatılır.
+. Fibabanka uygulamasına girilir.
+
+**Oluşan Durum:**
+
+- Uygulama gölgeli ekranda kalıyor, ekranda kullanıcının anlayacağı herhangi bir info yazısı görünmüyor.
+
+**Beklenen Sonuç:**
+
+. Uygulamanın gölgeli ekranda kalmasında sorun yok ama kullanıcının internete bağlanmadan uygulamayı kullanamayacağını belirten bir info yazısı gösterilmeli.
+
+. Örnek yazı: "Fibabanka mobili kullanabilmek için internete bağlı olmalısınız. Lütfen internet bağlantınızı kontrol edip tekrar deneyiniz"
+
+image::internet-olmadiginda-info-popup-gorunmeme-sorunu.jpeg[]
