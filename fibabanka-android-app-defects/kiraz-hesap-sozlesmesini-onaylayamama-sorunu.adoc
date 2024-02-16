@@ -1,0 +1,49 @@
+:imagesdir: images
+
+=  Kiraz hesap sözleşmesi checkbox'ını seçili duruma getirememe (sözleşmeyi onaylayamama) sorunu
+
+*Test cihazı:* Samsung Galaxy S20Fe Snapdragon 6/128
+
+*Test cihazı sürümü:* Android 13
+
+*Test cihazı ekran çözünürlüğü:* 1080 x 2400
+
+*Test cihazı arayüz sürümü:* One UI 5.1
+
+*Uygulama Sürümü:* 3.1.22
+
+*Sorunun Tekrarlanma Tarih-Saati:* 16.02.2024 - 17:35
+
+**Ön Koşullar:**
+
+. Uygulamaya giriş yapabilmek adına geçerli giriş bilgileri olmalı (Müşteri/T.C. Kimlik Numarası, Şifre).
+. Sms aktivasyonu için telefonda aktif bir mobil hat olmalı.
+
+**Aşama:**
+
+- Hesaplar
+
+**Senaryo:**
+
+. Uygulama giriş ekranında "Müşteri/T.C. Kimlik Numarası" ve "Şifre" bilgileri girilir, "Giriş" butonuna tıklanır (eğer bilgileri girdikten sonra buton otomatik olarak seçilirse tıklamaya gerek kalmaz).
+. Sms ile gelen şifre "Şifre" inputuna girilir, "Gönder" butonuna tıklanır (şifreyi girdikten sonra buton otomatik olarak seçilirse tıklamaya gerek kalmaz).
+. Anasayfada "Hesaplarım" alanında "Tüm Hesaplarım" seçeneği tıklanır.
+. Hesap Listesi sayfasında "Yeni Hesap Aç" butonu tıklanır.
+. Yeni Hesap sayfasında "Kiraz Hesap" seçeneği tıklanır.
+. Kiraz Hesap Açılışı sayfasında aşağıdaki şekilde seçimler yapılır.
+.. Şube: "Genel Müdürlük Muhasebeleşme"
+.. Para Birimi: "Türk Lirası"
+.. Hesap Adı: Volkan
+. "Bankacılık İşlemleri Komisyon ve Ücret Bilgi Formunu okudum, onaylıyorum" checkbox'ı üzerine tıklanır, ardından "Onay" butonuna tıklanır.
+. "Kiraz Hesap Sözleşmesini okudum, onaylıyorum" checkbox'ı üzerine tıklanır.
+
+**Oluşan Durum:**
+
+- "Kiraz Hesap Sözleşmesini okudum, onaylıyorum" checkbox'ı üzerine tıklayınca "Döküman müşteriye ait değil" uyarısı çıkıyor.
+
+**Beklenen Sonuç:**
+
+- "Kiraz Hesap Sözleşmesini okudum, onaylıyorum" checkbox'ı üzerine tıklayınca sözleşme açılmalı ve onay butonu görünmeli. Onay butonuna tıklayınca checkbox seçili duruma gelmeli.
+
+
+image::kiraz-hesap-sozlesmesini-onaylayamama-sorunu.jpeg[]
