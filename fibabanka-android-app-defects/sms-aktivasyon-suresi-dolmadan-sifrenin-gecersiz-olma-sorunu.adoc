@@ -1,0 +1,39 @@
+:imagesdir: images
+
+=  Uygulamaya giriş ekranında sms aktivasyon şifresinin süresi dolmadan şifrenin geçersiz olma sorunu
+
+*Test cihazı:* Samsung Galaxy S20Fe Snapdragon 6/128
+
+*Test cihazı sürümü:* Android 13
+
+*Test cihazı ekran çözünürlüğü:* 1080 x 2400
+
+*Test cihazı arayüz sürümü:* One UI 5.1
+
+*Uygulama Sürümü:* 3.1.22
+
+*Sorunun Tekrarlanma Tarih-Saati:* 16.02.2024 - 13:33
+
+**Ön Koşullar:**
+
+. Uygulamaya giriş yapabilmek adına geçerli giriş bilgileri olmalı (Müşteri/T.C. Kimlik Numarası, Şifre).
+. Sms aktivasyonu için telefonda aktif bir mobil hat olmalı.
+
+**Aşama:**
+
+- Giriş ekranı
+
+**Senaryo:**
+
+. Uygulama giriş ekranında "Müşteri/T.C. Kimlik Numarası" ve "Şifre" bilgileri girilir, "Giriş" butonuna tıklanır (eğer bilgileri girdikten sonra buton otomatik olarak seçilirse tıklamaya gerek kalmaz).
+. 90 saniyelik geri sayım başladıktan sonra son 18 saniye kaldığında Sms ile gelen şifre "Şifre" inputuna girilir, "Gönder" butonuna tıklanır (şifreyi girdikten sonra buton otomatik olarak seçilirse tıklamaya gerek kalmaz).
+
+**Oluşan Durum:**
+
+- 90 saniyelik süre dolmadığı halde ve girilen şifre doğru olduğu halde "Tek kullanımlık şifrenizi hatalı girdiniz. Lütfen kontrol ederek tekrar deneyiniz." uyarısı veriyor.
+
+**Beklenen Sonuç:**
+
+- Sms aktivasyon süresi dolmadan sms şifresi geçersiz olmamalı.
+
+image::sms-aktivasyon-suresi-dolmadan-sifrenin-gecersiz-olma-sorunu.jpeg[]

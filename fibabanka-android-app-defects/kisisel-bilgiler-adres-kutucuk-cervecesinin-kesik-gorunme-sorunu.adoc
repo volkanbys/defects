@@ -1,0 +1,43 @@
+:imagesdir: images
+
+=  Kişisel bilgiler sayfasında adres kutucuğunun çerçevesinin kesik görünme sorunu
+
+*Test cihazı:* Samsung Galaxy S20Fe Snapdragon 6/128
+
+*Test cihazı sürümü:* Android 13
+
+*Test cihazı ekran çözünürlüğü:* 1080 x 2400
+
+*Test cihazı arayüz sürümü:* One UI 5.1
+
+*Uygulama Sürümü:* 3.1.22
+
+*Sorunun Tekrarlanma Tarih-Saati:* 16.02.2024 - 13:06
+
+**Ön Koşullar:**
+
+. Uygulamaya giriş yapabilmek adına geçerli giriş bilgileri olmalı (Müşteri/T.C. Kimlik Numarası, Şifre).
+. Sms aktivasyonu için telefonda aktif bir mobil hat olmalı.
+
+**Aşama:**
+
+- Profil
+
+**Senaryo:**
+
+. Uygulama giriş ekranında "Müşteri/T.C. Kimlik Numarası" ve "Şifre" bilgileri girilir, "Giriş" butonuna tıklanır (eğer bilgileri girdikten sonra buton otomatik olarak seçilirse tıklamaya gerek kalmaz).
+. Sms ile gelen şifre "Şifre" inputuna girilir, "Gönder" butonuna tıklanır (şifreyi girdikten sonra buton otomatik olarak seçilirse tıklamaya gerek kalmaz).
+. Anasayfada sol üst köşedeki profil butonuna tıklanır.
+. Profil sayfasında "Kişisel Bilgilerim" butonu tıklanır.
+. Kişisel Bilgiler sayfasında "Adres Bilgileri" alanında "+" butonuna tıklanır.
+. Adres Bilgilerim sayfasında "Adres" kutucuğunun çerçevesi kontrol edilir.
+
+**Oluşan Durum:**
+
+- Kutucuğun alt tarafında çerçeve görünmüyor (kesintiye uğramış görünüyor).
+
+**Beklenen Sonuç:**
+
+- Kutucuğun alt tarafında da çerçeve görünmeli, kutucuk bir bütün halinde olmalı.
+
+image::kisisel-bilgiler-adres-kutucuk-cervecesinin-kesik-gorunme-sorunu.png[]
