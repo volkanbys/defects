@@ -1,0 +1,43 @@
+:imagesdir: images
+
+=  Alışgidiş onay sayfasında back butonuna basınca beyaz ekran hatası
+
+*Test cihazı:* Samsung Galaxy S20Fe Snapdragon 6/128
+
+*Test cihazı sürümü:* Android 13
+
+*Test cihazı ekran çözünürlüğü:* 1080 x 2400
+
+*Test cihazı arayüz sürümü:* One UI 5.1
+
+*Uygulama Sürümü:* 3.1.22
+
+*Sorunun Tekrarlanma Tarih-Saati:* 16.02.2024 - 13:06
+
+**Ön Koşullar:**
+
+. Uygulamaya giriş yapabilmek adına geçerli giriş bilgileri olmalı (Müşteri/T.C. Kimlik Numarası, Şifre).
+. Sms aktivasyonu için telefonda aktif bir mobil hat olmalı.
+
+**Aşama:**
+
+- Güvenlik
+
+**Senaryo:**
+
+. Uygulama giriş ekranında "Müşteri/T.C. Kimlik Numarası" ve "Şifre" bilgileri girilir, "Giriş" butonuna tıklanır (eğer bilgileri girdikten sonra buton otomatik olarak seçilirse tıklamaya gerek kalmaz).
+. Sms ile gelen şifre "Şifre" inputuna girilir, "Gönder" butonuna tıklanır (şifreyi girdikten sonra buton otomatik olarak seçilirse tıklamaya gerek kalmaz).
+. Anasayfada sol üst köşedeki profil butonuna tıklanır.
+. Profil sayfasında "Güvenlik" seçeneği tıklanır.
+. Güvenlik sayfasında "Alışgidiş Onaylar" seçeneği tıklanır.
+. Alışgidiş sayfasında back butonuna tıklanır.
+
+**Oluşan Durum:**
+
+- Alışgidiş sayfasında back butonuna tıklayınca sayfa beyaz ekranda kalıyor.
+
+**Beklenen Sonuç:**
+
+- Alışgidiş sayfasında back butonuna basınca sayfa beyaz ekranda kalmamalı, güvenlik sayfasına dönmeli.
+
+image::alisgidis-onay-back-islemi-beyaz-ekran-hatasi.png[]
