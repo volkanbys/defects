@@ -8,7 +8,7 @@
 
 *Test cihazı ekran çözünürlüğü:* 1080 x 2340
 
-*Test cihazı arayüz sürümü:* One UI 5.16.0
+*Test cihazı arayüz sürümü:* One UI 6.0
 
 *Uygulama Sürümü:* 5.34.1
 
