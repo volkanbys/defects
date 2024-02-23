@@ -1,0 +1,40 @@
+:imagesdir: images
+
+=  Honor Magic Ön Kayıt popup'ı scroll sorunu
+
+*Test cihazı:* Samsung Galaxy S23
+
+*Test cihazı sürümü:* Android 14
+
+*Test cihazı ekran çözünürlüğü:* 1080 x 2340
+
+*Test cihazı arayüz sürümü:* One UI 5.16.0
+
+*Uygulama Sürümü:* 5.34.1
+
+*Sorunun Tekrarlanma Tarih-Saati:* 23.02.2024 - 17:10
+
+**Ön Koşullar:**
+
+- Uygulamada kullanıcı login olmuş olmalı.
+
+**Aşama:** 
+
+- Anasayfa
+
+**Senaryo:**
+
+. Anasayfada 45'li banner alanında 2. sıradaki "Honor Magic V2" banner'ına tıklanır.
+. "Honor Magic V2 Türkiye'ye geliyor" sayfasında "Ön kayıt için tıkla" butonuna tıklanır ve açılan "Ön kayıt işleminiz tamamlanmıştır..." popup'ında yukarı aşağı scroll yapılır.
+
+**Oluşan Durum:**
+
+- "Ön kayıt işleminiz tamamlanmıştır..." popup'ında yukarı aşağı scroll yapılamıyor ve popup içeriğinin alt tarafı görüntülenemiyor. (Web uygulamadan incelendiğinde popup'ın alt tarafında "Aydınlatma Metni" bağlantısı görünüyor)
+
+**Beklenen Sonuç:**
+
+- Ön kayıt işleminiz tamamlanmıştır..." popup'ının tamamı scroll yapılabilmeli, özellikle "Aydınlatma Metni" bağlantısı görünmeli.
+
+image::honor-magic-on-kayit-popup-scroll-sorunu-1.png[]
+image::honor-magic-on-kayit-popup-scroll-sorunu-2.png[]
+
