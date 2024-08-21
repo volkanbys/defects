@@ -1,0 +1,41 @@
+:imagesdir: images
+
+=  Header butonları kayma sorunu
+
+*Test cihazı:* Samsung Galaxy S20FE
+
+*Test cihazı sürümü:* Android 13
+
+*Test cihazı ekran çözünürlüğü:* 1080 x 2400
+
+*Test cihazı arayüz sürümü:* One UI 5.1
+
+*Uygulama Sürümü:* 3.0.1
+
+*Sorunun Tekrarlanma Tarih-Saati:* 21.08.2024 - 12:50
+
+**Ön Koşullar:**
+
+- En az 1 restoran listelenen bir adres seçili olmalı
+
+**Aşama:** 
+
+- Restoran Ekranı
+
+**Senaryo:**
+
+. Anasayfadan herhangi bir restoran seçilir.
+. Restoran ekranının üst tarafındaki butonların hizalaması kontrol edilir.
+
+**Oluşan Durum:**
+
+- Butonlar sağa kaymış görünüyor, buna bağlı olarak en sağdaki info ("...") butonu ekran dışına çıkmış.
+
+**Beklenen Sonuç:**
+
+- Butonlar ekranın sağından ve solundan eşit mesafe olacak şekilde hizalanmalı.
+
+image::header-butonlari-kayma-sorunu.jpeg[]
+
+
+

@@ -16,7 +16,8 @@
 
 **Ön Koşullar:**
 
-- Login olunmamalı.
+. Login olunmamalı.
+. En az 1 ücretsiz restoran listelenen bir adres seçili olmalı
 
 **Aşama:** 
 
@@ -25,7 +26,7 @@
 **Senaryo:**
 
 . Uygulama anasayfasının en üstündeki "Adres" butonuna tıklanır.
-. Herhangi bir konum seçilir ve "Konumu Onayla" butonuna tıklanır.
+. Ücretsiz teslimat listelenecek bir konum seçilir ve "Konumu Onayla" butonuna tıklanır (Örn: Ankara Kızılay).
 . Anasayfanın en altındaki "Ücretsiz Teslimat" alanından herhangi bir restoran seçilir.
 . Restoran seçim anından restoran ekranına geçiş süresi hesaplanır.
 
