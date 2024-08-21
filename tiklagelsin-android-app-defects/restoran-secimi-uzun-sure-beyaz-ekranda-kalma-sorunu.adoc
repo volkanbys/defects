@@ -1,0 +1,43 @@
+:imagesdir: images
+
+=  Anasayfada ücretsiz teslimat alanında restoran seçince uzun süre beyaz ekranda kalma sorunu
+
+*Test cihazı:* Samsung Galaxy S20FE
+
+*Test cihazı sürümü:* Android 13
+
+*Test cihazı ekran çözünürlüğü:* 1080 x 2400
+
+*Test cihazı arayüz sürümü:* One UI 5.1
+
+*Uygulama Sürümü:* 3.0.1
+
+*Sorunun Tekrarlanma Tarih-Saati:* 21.08.2024 - 12:38
+
+**Ön Koşullar:**
+
+- Login olunmamalı.
+
+**Aşama:** 
+
+- Anasayfa - Ücretsiz Teslimat - Restoran Ekranı
+
+**Senaryo:**
+
+. Uygulama anasayfasının en üstündeki "Adres" butonuna tıklanır.
+. Herhangi bir konum seçilir ve "Konumu Onayla" butonuna tıklanır.
+. Anasayfanın en altındaki "Ücretsiz Teslimat" alanından herhangi bir restoran seçilir.
+. Restoran seçim anından restoran ekranına geçiş süresi hesaplanır.
+
+**Oluşan Durum:**
+
+- Restoran seçildiği andan itibaren restoran ekranına geçiş süresi yaklaşık 3 saniye sürüyor.
+
+**Beklenen Sonuç:**
+
+- Restoran ekranına geçiş süresi olabilen en düşük süreye indirilmeli.
+
+image::restoran-secimi-uzun-sure-beyaz-ekranda-kalma-sorunu.png[]
+
+
+
