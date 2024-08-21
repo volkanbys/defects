@@ -1,0 +1,43 @@
+:imagesdir: images
+
+=  Gel al menüsünde adres seçememe sorunu
+
+*Test cihazı:* Samsung Galaxy S20FE
+
+*Test cihazı sürümü:* Android 13
+
+*Test cihazı ekran çözünürlüğü:* 1080 x 2400
+
+*Test cihazı arayüz sürümü:* One UI 5.1
+
+*Uygulama Sürümü:* 3.0.1
+
+*Sorunun Tekrarlanma Tarih-Saati:* 21.08.2024 - 12:13
+
+**Ön Koşullar:**
+
+- Login olunmamalı.
+
+**Aşama:** 
+
+- "Gel Al" ekranı
+
+**Senaryo:**
+
+. Uygulama anasayfasının en üstündeki "Adres" butonuna tıklanır.
+. Herhangi bir konum seçilir ve "Konumu Onayla" butonuna tıklanır.
+. Anasayfada "Gel Al" seçeneği tıklanır.
+. "Gel Al" anasayfasında sayfanın en üstündeki "Adres" butonuna tıklanır.
+
+**Oluşan Durum:**
+
+- "Gel Al" sayfasında adres butonuna tıklayınca buton tepki vermiyor.
+
+**Beklenen Sonuç:**
+- "Gel Al" sayfasında adres butonuna tıklayınca adres seçimi sayfası açılmalı.
+
+image::gel-al-adres-secememe-sorunu-1.jpeg[]
+image::gel-al-adres-secememe-sorunu-2.jpeg[]
+image::gel-al-adres-secememe-sorunu-3.jpeg[]
+
+

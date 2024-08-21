@@ -16,7 +16,7 @@
 
 **Ön Koşullar:**
 
-- 
+- Login olunmamalı.
 
 **Aşama:** 
 
