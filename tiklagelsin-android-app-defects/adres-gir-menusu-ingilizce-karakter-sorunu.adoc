@@ -1,0 +1,40 @@
+:imagesdir: images
+
+=  Adres gir menüsünde İl-İlçe-Mahalle isimlerinde "ı" harflerinin "i" olarak görünme sorunu
+
+*Test cihazı:* Samsung Galaxy S20FE
+
+*Test cihazı sürümü:* Android 13
+
+*Test cihazı ekran çözünürlüğü:* 1080 x 2400
+
+*Test cihazı arayüz sürümü:* One UI 5.1
+
+*Uygulama Sürümü:* 3.0.1
+
+*Sorunun Tekrarlanma Tarih-Saati:* 21.08.2024 - 11:13
+
+**Ön Koşullar:**
+
+- 
+
+**Aşama:** 
+
+- "Adres" -> "Adres Gir" ekranı
+
+**Senaryo:**
+
+. Uygulama anasayfasının en üstündeki "Adres" butonuna tıklanır.
+. Harita ekranında "Adres Gir" butonuna tıklanır.
+. Adres detayları ekranında sırasıyla il, ilçe, mahalle dropdownlarında "ı" harfi içeren il, ilçe, mahalle isimleri kontrol edilir.
+
+**Oluşan Durum:**
+
+- "ı" harfi içeren il, ilçe, mahalle isimlerinde "ı" harfleri "i" harfi olarak görünüyor.
+
+**Beklenen Sonuç:**
+- "ı" harfleri "i" olarak görünmemeli, "ı" olarak görünmeli. Örneğin: "Çankırı - Kızılırmak - Osmanlı" şeklinde yazması gerekirken "Çankiri - Kizilirmak - Osmanli" şeklinde yazıyor.
+
+image::adres-gir-menusu-ingilizce-karakter-sorunu.jpeg[]
+
+
