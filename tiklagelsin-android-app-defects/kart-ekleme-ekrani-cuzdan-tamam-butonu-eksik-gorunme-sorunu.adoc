@@ -1,0 +1,44 @@
+:imagesdir: images
+
+=  Kayıtlı kartlarım ekranında Tıklapay Cüzdanım sözleşme onay butonunun eksik görünme sorunu
+
+*Test cihazı:* Samsung Galaxy S20FE
+
+*Test cihazı sürümü:* Android 13
+
+*Test cihazı ekran çözünürlüğü:* 1080 x 2400
+
+*Test cihazı arayüz sürümü:* One UI 5.1
+
+*Uygulama Sürümü:* 3.0.1
+
+*Sorunun Tekrarlanma Tarih-Saati:* 21.08.2024 - 14:32
+
+**Ön Koşullar:**
+
+. Test login durumda yapılmalı
+. Tıklapay Cüzdanım sözleşmesi önceden onaylanmamış olmalı 
+
+**Aşama:** 
+
+- Hesabım -> Kayıtlı Kartlarım
+
+**Senaryo:**
+
+. Uygulama anasayfasının sağ üst tarafındaki "Hesabım" butonuna tıklanır.
+. Hesabım sayfasında "Kayıtlı Kartlarım" butonuna tıklanır.
+. Kayıtlı Kartlarım sayfasında "Yeni Kart Ekle" butonuna tıklanır.
+. "Tıklapay Cüzdanım" popup'ının alt tarafındaki butonun görünümü kontrol edilir.
+
+**Oluşan Durum:**
+
+- Tıklapay Cüzdanım popup'ının alt tarafındaki buton eksik görünüyor.
+
+**Beklenen Sonuç:**
+
+- Buton eksik görünmemeli, tamamı görünmeli.
+
+image::kart-ekleme-ekrani-cuzdan-tamam-butonu-eksik-gorunme-sorunu.jpeg[]
+
+
+
