@@ -35,6 +35,8 @@
 **Beklenen Sonuç:**
 - "ı" harfleri "i" olarak görünmemeli, "ı" olarak görünmeli. Örneğin: "Çankırı - Kızılırmak - Osmanlı" şeklinde yazması gerekirken "Çankiri - Kizilirmak - Osmanli" şeklinde yazıyor.
 
-image::adres-gir-menusu-ingilizce-karakter-sorunu.jpeg[]
+image::adres-gir-menusu-ingilizce-karakter-sorunu-1.jpeg[]
+image::adres-gir-menusu-ingilizce-karakter-sorunu-2.jpeg[]
+image::adres-gir-menusu-ingilizce-karakter-sorunu-3.jpeg[]
 
 
