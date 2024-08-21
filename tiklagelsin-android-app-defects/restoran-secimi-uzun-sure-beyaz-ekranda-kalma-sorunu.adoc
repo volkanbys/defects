@@ -32,7 +32,7 @@
 
 **Oluşan Durum:**
 
-- Restoran seçildiği andan itibaren restoran ekranına geçiş süresi yaklaşık 3 saniye sürüyor.
+- Restoran seçildiği andan itibaren restoran ekranına geçiş süresi yaklaşık 3 saniye sürüyor (bu süre bazen 5-6 saniyelere uzuyor).
 
 **Beklenen Sonuç:**
 

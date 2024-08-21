@@ -1,0 +1,49 @@
+:imagesdir: images
+
+=  Kayıtlı kartlarım popup'ında "Yemek Kartı Ekle" butonunun çalışmama sorunu
+
+*Test cihazı:* Samsung Galaxy S20FE
+
+*Test cihazı sürümü:* Android 13
+
+*Test cihazı ekran çözünürlüğü:* 1080 x 2400
+
+*Test cihazı arayüz sürümü:* One UI 5.1
+
+*Uygulama Sürümü:* 3.0.1
+
+*Sorunun Tekrarlanma Tarih-Saati:* 21.08.2024 - 15:55
+
+**Ön Koşullar:**
+
+. Test login durumda yapılmalı
+. Hesapta ekli en az 1 kredi kartı olmalı 
+. Gel Al menüsünde en az 1 restoran listelenmeli (eğer listelenmiyorsa telefona sahte konum uygulaması yükleyerek konum Ankara Kızılay seçilebilir)
+
+**Aşama:** 
+
+- Gel Al Ödeme Ekranı
+
+**Senaryo:**
+
+. Anasayfada "Gel Al" seçeneği seçilir.
+. Gel Al sayfasında herhangi bir restoran seçilir.
+. Sepete minimum sipariş tutarını karşılayacak şekilde rastgele ürün eklenir.
+. "Sepete Git" butonuna tıklanır.
+. "Sepetim" ekranında "Devam Et" butonuna tıklanır.
+. "Ödeme" sayfasında "Ödeme Yöntemi" alanındaki kayıtlı kredi kartı üzerine tıklanır.
+. "Kayıtlı Kartlarım" menüsünde "Yemek Kartı Ekle" butonuna tıklanır.
+
+**Oluşan Durum:**
+
+- "Yemek Kartı Ekle" butonu aksiyon almıyor.
+
+**Beklenen Sonuç:**
+
+- "Yemek Kartı Ekle" butonuna tıklayınca ilgili menü açılmalı/aksiyon alınmalı.
+
+image::yemek-karti-ekle-butonu-calismama-sorunu-1.png[]
+image::yemek-karti-ekle-butonu-calismama-sorunu-2.png[]
+
+
+
