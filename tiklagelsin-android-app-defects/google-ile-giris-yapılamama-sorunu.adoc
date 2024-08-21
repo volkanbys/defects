@@ -1,0 +1,43 @@
+:imagesdir: images
+
+=  Uygulamaya Google ile giriş yapamama sorunu
+
+*Test cihazı:* Samsung Galaxy S20FE
+
+*Test cihazı sürümü:* Android 13
+
+*Test cihazı ekran çözünürlüğü:* 1080 x 2400
+
+*Test cihazı arayüz sürümü:* One UI 5.1
+
+*Uygulama Sürümü:* 3.0.1
+
+*Sorunun Tekrarlanma Tarih-Saati:* 21.08.2024 - 13:52
+
+**Ön Koşullar:**
+
+- Mobil cihazda Google hesabı ekli olmalı
+
+**Aşama:** 
+
+- "Üye Ol veya Giriş Yap" ekranı
+
+**Senaryo:**
+
+. Uygulama anasayfasının sağ üst tarafındaki Kullanıcı (Üye Ol veya Giriş Yap) butonuna tıklanır.
+. "Üye Ol veya Giriş Yap" ekranında Google butonuna tıklanır ve Google hesabı seçilir.
+. Giriş yapılıp yapılmadığı kontrol edilir.
+
+
+**Oluşan Durum:**
+
+- Google hesabı seçildikten sonra ekran belirli bir süre silik (soft) bir şekilde kalıyor, Google butonu kayboluyor, uygulamaya giriş yapmıyor.
+
+**Beklenen Sonuç:**
+
+- Google hesabı seçildikten sonra uygulamaya giriş yapılmalı.
+
+image::google-ile-giris-yapılamama-sorunu.png[]
+
+
+
