@@ -34,6 +34,7 @@
 - "Gel Al" sayfasında adres butonuna tıklayınca buton tepki vermiyor.
 
 **Beklenen Sonuç:**
+
 - "Gel Al" sayfasında adres butonuna tıklayınca adres seçimi sayfası açılmalı.
 
 image::gel-al-adres-secememe-sorunu-1.jpeg[]
